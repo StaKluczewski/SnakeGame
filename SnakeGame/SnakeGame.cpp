@@ -22,12 +22,9 @@ void drawTable(SnakeTable snakeT)
 	{
 		for (int j = 0; j < tableWidth; j++)
 		{
-			al_draw_rectangle((30) * j, i*30, 30 * j, (i*30)+30, al_map_rgb(255, 0, 255),1.5);
+			al_draw_rectangle((30) * j, i*30, (30 * (j + 1)), (i * 30)+30, al_map_rgb(255, 0, 255), 1.5);
 		}
 	}
-
-	// jeden kwadrat
-	al_draw_rectangle(0,0, 30,30, al_map_rgb(255, 0, 255), 1.5);
 }
 
 int main()
