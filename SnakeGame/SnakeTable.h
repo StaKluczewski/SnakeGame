@@ -1,4 +1,5 @@
 #pragma once
+#include "Snake.h"
 enum class Direction
 {
 	Up,
@@ -9,6 +10,7 @@ enum class Direction
 
 enum class TableItems
 {
+	Empty,
 	SnakeBody,
 	Food
 };
@@ -19,7 +21,12 @@ private:
 	int** m_table;
 	int m_height;
 	int m_width;
-	Direction m_LastDirection;
+
+	int snakeHeadX = 10;
+	int snakeHeadY = 10;
+
+	Snake* m_snake;
+	Direction m_LastDirection = Direction::Up;
 
 public:
 	SnakeTable(int height, int width);
@@ -28,19 +35,19 @@ public:
 	void update();
 
 	int** getTable() {
-		this->m_table;
+		return this->m_table;
 	}
 
 	int getHeight() {
-		this->m_height;
+		return this->m_height;
 	}
 
 	int getWidth() {
-		this->m_width;
+		return this->m_width;
 	}
 
 	Direction getDirection() {
-		this->m_LastDirection;
+		return this->m_LastDirection;
 	}
 
 	void setDirection(Direction d) {

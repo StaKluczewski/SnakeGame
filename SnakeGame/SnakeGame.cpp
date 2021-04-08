@@ -16,13 +16,31 @@ const int tableHeight = 20;
 const int tableWidth = 20;
 
 
-void drawTable(SnakeTable snakeT)
+void drawTable(SnakeTable *snakeT)
 {
 	for (int i = 0; i < tableHeight; i++)
 	{
 		for (int j = 0; j < tableWidth; j++)
 		{
-			al_draw_rectangle((30) * j, i*30, (30 * (j + 1)), (i * 30)+30, al_map_rgb(255, 0, 255), 1.5);
+			switch (snakeT->getTable()[i][j])
+			{
+				case (int)TableItems::Empty :{
+					//al_draw_rectangle((30) * j, i * 30, (30 * (j + 1)), (i * 30) + 30, al_map_rgb(255, 255, 255), 1.5);
+					break;
+				}
+				case (int)TableItems::Food: {
+					al_draw_rectangle((30) * j, i * 30, (30 * (j + 1)), (i * 30) + 30, al_map_rgb(255, 0, 0), 1.5);
+					break;
+				}
+				case (int)TableItems::SnakeBody: {
+					al_draw_filled_rectangle((30) * j, i * 30, (30 * (j + 1)), (i * 30) + 30, al_map_rgb(0, 0, 255));
+					break;
+				}
+
+			default:
+				break;
+			}
+			
 		}
 	}
 }
@@ -45,13 +63,20 @@ int main()
 	al_register_event_source(event_queue, al_get_keyboard_event_source());
 
 
-	SnakeTable snake = SnakeTable(tableHeight, tableWidth);
-	drawTable(snake);
+	SnakeTable* snakeTable = new SnakeTable(tableHeight, tableWidth);
+	
+	
+	while (true)
+	{
 
+		snakeTable->update();
 
+		drawTable(snakeTable);
+		al_flip_display();
 
-	al_flip_display();
-
+		Sleep(2000);
+	}
+	
     system("pause");
     return 0;
 }
