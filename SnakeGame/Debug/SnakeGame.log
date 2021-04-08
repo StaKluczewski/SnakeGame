@@ -1,2 +1,7 @@
 ﻿  Snake.cpp
-  SnakeGame.vcxproj -> F:\Github\SnakeGame\Debug\SnakeGame.exe
+  SnakeGame.cpp
+  SnakeTable.cpp
+C:\Users\klucz\OneDrive\Pulpit\Stasiu\Politechnika Śląska\II semestr\PK_Kolko\SnakeGame\SnakeGame\SnakeTable.cpp(9,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\klucz\OneDrive\Pulpit\Stasiu\Politechnika Śląska\II semestr\PK_Kolko\SnakeGame\SnakeGame\SnakeTable.cpp(17,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Generowanie kodu...
+  SnakeGame.vcxproj -> C:\Users\klucz\OneDrive\Pulpit\Stasiu\Politechnika Śląska\II semestr\PK_Kolko\SnakeGame\Debug\SnakeGame.exe

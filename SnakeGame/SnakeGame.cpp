@@ -16,7 +16,7 @@ const int tableHeight = 20;
 const int tableWidth = 20;
 
 
-void drawTable(SnakeTable *snakeT)
+void drawTable(SnakeTable* snakeT)
 {
 	for (int i = 0; i < tableHeight; i++)
 	{
@@ -24,32 +24,33 @@ void drawTable(SnakeTable *snakeT)
 		{
 			switch (snakeT->getTable()[i][j])
 			{
-				case (int)TableItems::Empty :{
-					//al_draw_rectangle((30) * j, i * 30, (30 * (j + 1)), (i * 30) + 30, al_map_rgb(255, 255, 255), 1.5);
-					break;
-				}
-				case (int)TableItems::Food: {
-					al_draw_rectangle((30) * j, i * 30, (30 * (j + 1)), (i * 30) + 30, al_map_rgb(255, 0, 0), 1.5);
-					break;
-				}
-				case (int)TableItems::SnakeBody: {
-					al_draw_filled_rectangle((30) * j, i * 30, (30 * (j + 1)), (i * 30) + 30, al_map_rgb(0, 0, 255));
-					break;
-				}
-
-			default:
+			case (int)TableItems::Empty:
+			{
+				al_draw_filled_rectangle((30) * j, i * 30, (30 * (j + 1)), (i * 30) + 30, al_map_rgb(0, 0, 0));
 				break;
 			}
-			
+			case (int)TableItems::Food:
+			{
+				al_draw_filled_rectangle((30) * j, i * 30, (30 * (j + 1)), (i * 30) + 30, al_map_rgb(255, 0, 0));
+				break;
+			}
+			case (int)TableItems::SnakeBody:
+			{
+				al_draw_filled_rectangle((30) * j, i * 30, (30 * (j + 1)), (i * 30) + 30, al_map_rgb(0, 0, 255));
+				break;
+			}
+
+			}
+
 		}
 	}
 }
 
 int main()
 {
-    setlocale(LC_ALL, "polish");
-    std::cout << "Witamy w grze snake!\n" << std::endl;
-	
+	setlocale(LC_ALL, "polish");
+	std::cout << "Witamy w grze snake!\n" << std::endl;
+
 	al_init();
 	al_init_primitives_addon();
 	al_install_keyboard();
@@ -64,8 +65,8 @@ int main()
 
 
 	SnakeTable* snakeTable = new SnakeTable(tableHeight, tableWidth);
-	
-	
+
+
 	while (true)
 	{
 
@@ -76,7 +77,7 @@ int main()
 
 		Sleep(2000);
 	}
-	
-    system("pause");
-    return 0;
+
+	system("pause");
+	return 0;
 }

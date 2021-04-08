@@ -18,40 +18,24 @@ enum class TableItems
 class SnakeTable
 {
 private:
+
 	int** m_table;
 	int m_height;
 	int m_width;
-
 	int snakeHeadX = 10;
 	int snakeHeadY = 10;
-
 	Snake* m_snake;
-	Direction m_LastDirection = Direction::Up;
+	Direction m_LastDirection = Direction::Left;
 
 public:
+
 	SnakeTable(int height, int width);
 	~SnakeTable();
-
+	void setDirection(Direction dir);
 	void update();
-
-	int** getTable() {
-		return this->m_table;
-	}
-
-	int getHeight() {
-		return this->m_height;
-	}
-
-	int getWidth() {
-		return this->m_width;
-	}
-
-	Direction getDirection() {
-		return this->m_LastDirection;
-	}
-
-	void setDirection(Direction d) {
-		this->m_LastDirection = d;
-	}
+	int** getTable();
+	int getHeight();
+	int getWidth();
+	Direction getDirection();
 };
 

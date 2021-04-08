@@ -3,6 +3,7 @@ class Snake
 {
 private:
 	int** m_body;
+	int m_maxSize;
 
 public:
 	Snake(int& Starting_Point, int max_Size);
