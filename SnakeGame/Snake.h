@@ -7,7 +7,9 @@ private:
 
 public:
 	Snake(int& Starting_Point, int max_Size);
-	void move(int& next_p);
+	bool move(int& next_p);
+	void eat(int& next_p);
+	int getLenght();
 
 	~Snake();
 
