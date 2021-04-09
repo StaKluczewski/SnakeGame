@@ -1,2 +1,4 @@
-﻿  SnakeGame.cpp
-  SnakeGame.vcxproj -> C:\Users\klucz\OneDrive\Pulpit\Stasiu\Politechnika Śląska\II semestr\PK_Kolko\SnakeGame\Debug\SnakeGame.exe
+﻿  SnakeTable.cpp
+F:\Github\SnakeGame\SnakeGame\SnakeTable.cpp(9,23): warning C4018: '<': signed/unsigned mismatch
+F:\Github\SnakeGame\SnakeGame\SnakeTable.cpp(17,23): warning C4018: '<': signed/unsigned mismatch
+  SnakeGame.vcxproj -> F:\Github\SnakeGame\Debug\SnakeGame.exe

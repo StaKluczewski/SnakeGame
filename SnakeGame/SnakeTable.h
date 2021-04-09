@@ -18,7 +18,6 @@ enum class TableItems
 class SnakeTable
 {
 private:
-
 	int** m_table;
 	int m_height;
 	int m_width;
