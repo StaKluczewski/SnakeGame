@@ -19,38 +19,55 @@ SnakeTable::~SnakeTable()
 	delete[] m_table;
 }
 
-void SnakeTable::update()
+bool SnakeTable::update()
 {
 	switch (this->m_LastDirection)
 	{
-	case Direction::Up:
-	{
-		snakeHeadX--;
-		m_snake->move(m_table[snakeHeadX][snakeHeadY]);
-		break;
-	}
+		case Direction::Up:
+		{
+			snakeHeadX--;
+			if (snakeHeadX < 0)
+			{
+				return false;									// KONIEC GRY BO W SCIANE UDERZY£
+			}
+			m_snake->move(m_table[snakeHeadX][snakeHeadY]);
+			break;
+		}
 
-	case Direction::Down:
-	{
-		snakeHeadX++;
-		m_snake->move(m_table[snakeHeadX][snakeHeadY]);
-		break;
-	}
+		case Direction::Down:
+		{
+			snakeHeadX++;
+			if (snakeHeadX > m_width-1)
+			{
+				return false;
+			}
+			m_snake->move(m_table[snakeHeadX][snakeHeadY]);
+			break;
+		}
 
-	case Direction::Left:
-	{
-		snakeHeadY--;
-		m_snake->move(m_table[snakeHeadX][snakeHeadY]);
-		break;
-	}
+		case Direction::Left:
+		{
+			snakeHeadY--;
+			if (snakeHeadY < 0)
+			{
+				return false;
+			}
+			m_snake->move(m_table[snakeHeadX][snakeHeadY]);
+			break;
+		}
 
-	case Direction::Right:
-	{
-		snakeHeadY++;
-		m_snake->move(m_table[snakeHeadX][snakeHeadY]);
-		break;
+		case Direction::Right:
+		{
+			snakeHeadY++;
+			if (snakeHeadY > m_height -1)
+			{
+				return false;
+			}
+			m_snake->move(m_table[snakeHeadX][snakeHeadY]);
+			break;
+		}
 	}
-	}
+	return true;
 }
 
 void SnakeTable::setDirection(Direction dir)

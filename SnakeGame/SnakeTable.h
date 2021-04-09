@@ -32,7 +32,7 @@ public:
 	SnakeTable(int height, int width);
 	~SnakeTable();
 	void setDirection(Direction dir);
-	void update();
+	bool update();
 	int** getTable();
 	int getHeight();
 	int getWidth();

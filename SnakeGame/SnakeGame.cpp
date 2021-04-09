@@ -46,6 +46,11 @@ void drawTable(SnakeTable* snakeT)
 	}
 }
 
+using std::endl;
+using std::cout;
+using std::cerr;
+
+
 int main()
 {
 	setlocale(LC_ALL, "polish");
@@ -66,17 +71,42 @@ int main()
 
 	SnakeTable* snakeTable = new SnakeTable(tableHeight, tableWidth);
 
+	ALLEGRO_KEYBOARD_STATE  state;
 
-	while (true)
+	//bool al_key_down(const ALLEGRO_KEYBOARD_STATE * state, int keycode)
+	//snakeTable.
+
+
+	bool isGameOn = true;
+
+	while (isGameOn)
 	{
+		Sleep(500);
+		al_get_keyboard_state(&state);
+		if (al_key_down(&state,ALLEGRO_KEY_W))
+		{
+			snakeTable->setDirection(Direction::Up);
+		}
+		else if(al_key_down(&state, ALLEGRO_KEY_S))
+		{
+			snakeTable->setDirection(Direction::Down);
+		}
+		else if (al_key_down(&state, ALLEGRO_KEY_A))
+		{
+			snakeTable->setDirection(Direction::Left);
+		}
+		else if (al_key_down(&state, ALLEGRO_KEY_D))
+		{
+			snakeTable->setDirection(Direction::Right);
+		}
 
-		snakeTable->update();
-
+		isGameOn = snakeTable->update();
 		drawTable(snakeTable);
 		al_flip_display();
 
-		Sleep(2000);
+
 	}
+	cout << "PROSZĘ PANA DZIAŁA!!!" << endl;
 
 	system("pause");
 	return 0;
