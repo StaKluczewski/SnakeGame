@@ -24,6 +24,7 @@ private:
 	int m_width;
 	int snakeHeadX = 10;
 	int snakeHeadY = 10;
+	bool isFood(int , int );
 	Snake* m_snake;
 	Direction m_LastDirection = Direction::Left;
 

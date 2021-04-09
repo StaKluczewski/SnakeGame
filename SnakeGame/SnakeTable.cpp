@@ -11,7 +11,10 @@ SnakeTable::SnakeTable(int height, int width)
 
 	this->m_snake = new Snake(m_table[10][10], height * width);
 }
-
+bool SnakeTable::isFood(int i, int y)
+{
+	return this->m_table[i][y] == (int)TableItems::Food;
+}
 SnakeTable::~SnakeTable()
 {
 	for (size_t i = 0; i < this->m_width; i++)
