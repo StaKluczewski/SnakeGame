@@ -1,5 +1,6 @@
 #pragma once
 #include "Snake.h"
+
 enum class Direction
 {
 	Up,
@@ -15,6 +16,12 @@ enum class TableItems
 	Food
 };
 
+struct FoodPos
+{
+	int pos_x;
+	int pos_y;
+};
+
 class SnakeTable
 {
 private:
@@ -24,7 +31,8 @@ private:
 	int m_width;
 	int snakeHeadX = 10;
 	int snakeHeadY = 10;
-	bool isFood(int , int );
+	bool isFood(int, int);
+	FoodPos* FoodPosGenerator();
 	Snake* m_snake;
 	Direction m_LastDirection = Direction::Left;
 

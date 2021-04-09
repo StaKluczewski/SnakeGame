@@ -1,4 +1,6 @@
 #include "SnakeTable.h"
+#include <time.h>
+#include<cstdlib>
 
 SnakeTable::SnakeTable(int height, int width)
 {
@@ -11,15 +13,48 @@ SnakeTable::SnakeTable(int height, int width)
 
 	this->m_snake = new Snake(m_table[10][10], height * width);
 }
+
 bool SnakeTable::isFood(int i, int y)
 {
 	return this->m_table[i][y] == (int)TableItems::Food;
 }
+
 SnakeTable::~SnakeTable()
 {
 	for (size_t i = 0; i < this->m_width; i++)
 		delete[] m_table[i];
 	delete[] m_table;
+}
+
+FoodPos* SnakeTable::FoodPosGenerator() 
+{
+	int counter=0;							// counter 
+	FoodPos** tab= new FoodPos*[this->m_height*this->m_width];				// tab with empty pos 
+	FoodPos* posH = new FoodPos();							// helper 
+
+	for (size_t x = 0; x < 20; x++)
+	{
+		for (size_t y = 0; y < 20; y++)
+		{
+			if (this->m_table[x][y] == (int)TableItems::Empty)
+			{
+				posH->pos_x = x;				// if empty set x and y to helper var
+				posH->pos_y = y;
+				tab[counter] = posH;		// write to table 
+				counter++;					// increment counter
+			}
+		}
+	}
+
+	// get random pos from table
+	// max = counter
+	
+	srand(time(0));
+	int posRand = rand() % counter;
+
+	return tab[posRand];
+	
+	
 }
 
 bool SnakeTable::update()
