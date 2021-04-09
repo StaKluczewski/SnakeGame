@@ -26,7 +26,7 @@ SnakeTable::~SnakeTable()
 	delete[] m_table;
 }
 
-FoodPos* SnakeTable::FoodPosGenerator() 
+void SnakeTable::generateFood() 
 {
 	int counter=0;							// counter 
 	FoodPos** tab= new FoodPos*[this->m_height*this->m_width];				// tab with empty pos 
@@ -52,9 +52,7 @@ FoodPos* SnakeTable::FoodPosGenerator()
 	srand(time(0));
 	int posRand = rand() % counter;
 
-	return tab[posRand];
-	
-	
+	m_table[tab[posRand]->pos_x][tab[posRand]->pos_y] = (int)TableItems::Food;
 }
 
 bool SnakeTable::update()
@@ -67,8 +65,14 @@ bool SnakeTable::update()
 			if (snakeHeadX < 0)
 				return false;									// KONIEC GRY BO W SCIANE UDERZY£
 
-			return m_snake->move(m_table[snakeHeadX][snakeHeadY]);
-			break;
+			if (this->isFood(snakeHeadX, snakeHeadY))
+			{
+				m_snake->eat(m_table[snakeHeadX][snakeHeadY]);
+				m_food_exist = false;
+				break;
+			}
+			else
+				return m_snake->move(m_table[snakeHeadX][snakeHeadY]);
 		}
 
 		case Direction::Down:
@@ -77,8 +81,14 @@ bool SnakeTable::update()
 			if (snakeHeadX > m_width-1)
 				return false;
 
-			return m_snake->move(m_table[snakeHeadX][snakeHeadY]);
-			break;
+			if (this->isFood(snakeHeadX, snakeHeadY))
+			{
+				m_snake->eat(m_table[snakeHeadX][snakeHeadY]);
+				m_food_exist = false;
+				break;
+			}
+			else
+				return m_snake->move(m_table[snakeHeadX][snakeHeadY]);
 		}
 
 		case Direction::Left:
@@ -87,8 +97,14 @@ bool SnakeTable::update()
 			if (snakeHeadY < 0)
 				return false;
 
-			return m_snake->move(m_table[snakeHeadX][snakeHeadY]);
-			break;
+			if (this->isFood(snakeHeadX, snakeHeadY))
+			{
+				m_snake->eat(m_table[snakeHeadX][snakeHeadY]);
+				m_food_exist = false;
+				break;
+			}
+			else
+				return m_snake->move(m_table[snakeHeadX][snakeHeadY]);
 		}
 
 		case Direction::Right:
@@ -97,11 +113,19 @@ bool SnakeTable::update()
 			if (snakeHeadY > m_height -1)
 				return false;
 
-			return m_snake->move(m_table[snakeHeadX][snakeHeadY]);
-			break;
+			if (this->isFood(snakeHeadX, snakeHeadY))
+			{
+				m_snake->eat(m_table[snakeHeadX][snakeHeadY]);
+				m_food_exist = false;
+				break;
+			}
+			else
+				return m_snake->move(m_table[snakeHeadX][snakeHeadY]);
 		}
 	}
-	return true;
+
+	if (!m_food_exist) 
+		this->generateFood();
 }
 
 void SnakeTable::setDirection(Direction dir)

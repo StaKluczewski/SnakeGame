@@ -30,8 +30,10 @@ private:
 	int m_width;
 	int snakeHeadX = 10;
 	int snakeHeadY = 10;
+	bool m_food_exist = false;
+
 	bool isFood(int, int);
-	FoodPos* FoodPosGenerator();
+	void generateFood();
 	Snake* m_snake;
 	Direction m_LastDirection = Direction::Left;
 
