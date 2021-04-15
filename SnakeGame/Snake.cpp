@@ -1,67 +1,63 @@
-#include "Snake.h"
+﻿#include "Snake.h"
 #include "SnakeTable.h"
+
+#include <iostream>
 
 Snake::Snake(int& Starting_Point, int max_Size)
 {
 	this->m_maxSize = max_Size;
-	this->m_body = new int* [max_Size] { nullptr };
-	this->m_body[0] = &Starting_Point;
+
+	this->m_body.push_front(&Starting_Point);
 	Starting_Point = (int)TableItems::SnakeBody;
 }
 
+/*
+* @return false if body clash 
+*/
 bool Snake::move(int& next_p)
 {
 	if (this->getLenght() == 1)
 	{
-		*this->m_body[0] = (int)TableItems::Empty;
-		this->m_body[0] = &next_p;
-		*this->m_body[0] = (int)TableItems::SnakeBody;
+		*this->m_body.at(0) = (int)TableItems::Empty;
 
-		bool bodyContain = false;
+		this->m_body.at(0) = &next_p;
+		*this->m_body.at(0) = (int)TableItems::SnakeBody;
 
-		for (size_t i = 0; i < this->m_maxSize; i++)
-			if (this->m_body[i] == &next_p)
-				bodyContain = true;
-
-		return bodyContain;
+		return true;
 	}
 	else
 	{
-		this->m_body[0] = &next_p;
-		*this->m_body[0] = (int)TableItems::SnakeBody;
+		int lenght = this->getLenght();
 
-		for (size_t i = 1; i < this->getLenght()-1; i++)
-			*this->m_body[i] = *this->m_body[i + 1];
+		this->m_body.push_front(&next_p);
+		*this->m_body.at(0) = (int)TableItems::SnakeBody;
 
-		*this->m_body[this->getLenght() - 1] = (int)TableItems::SnakeBody;
+
+		*m_body.back() = (int)TableItems::Empty;
+		this->m_body.pop_back();
+		
+		bool not_crash = true;
+
+		for (size_t i = 1; i < this->getLenght(); i++)
+			if (this->m_body.at(i) == &next_p)
+				not_crash = false;
+
+		return not_crash;
 	}
 }
 
 void Snake::eat(int& next_p)
 {
-	this->m_body[0] = &next_p;
-	*this->m_body[0] = (int)TableItems::SnakeBody;
-
-	for (size_t i = 0; i < this->getLenght() - 1; i++)
-		*this->m_body[i] = *this->m_body[i + 1];
+	this->m_body.push_front(&next_p);
+	*this->m_body.at(0) = (int)TableItems::SnakeBody;	
 }
 
 int Snake::getLenght()
 {
-	int temp = 1;
-
-	for (size_t i = 1; i < m_maxSize; i++)
-		if (m_body[i] != nullptr)
-			temp++;
-	
-	return temp;
+	return this->m_body.size();
 }
 
 Snake::~Snake()
 {
-	if (m_body != nullptr)
-	{
-		delete[]m_body;
-		m_body = nullptr;
-	}
+	
 }

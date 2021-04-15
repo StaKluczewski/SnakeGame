@@ -1,8 +1,11 @@
 #pragma once
+#include <deque>
+
+
 class Snake
 {
 private:
-	int** m_body;
+	std::deque<int*> m_body = {};
 	int m_maxSize;
 
 public:

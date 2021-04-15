@@ -82,8 +82,10 @@ int main()
 
 	while (isGameOn)
 	{
+		al_get_keyboard_state(&state);
 		al_rest(1);
 		al_get_keyboard_state(&state);
+
 		if (al_key_down(&state,ALLEGRO_KEY_W))
 		{
 			snakeTable->setDirection(Direction::Up);

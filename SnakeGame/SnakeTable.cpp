@@ -58,6 +58,8 @@ void SnakeTable::generateFood()
 
 	//m_table[tab[posRand]->pos_x][tab[posRand]->pos_y] = (int)TableItems::Food;
 	m_table[5][5] = (int)TableItems::Food;
+
+	m_table[9][9] = (int)TableItems::Food;
 }
 
 bool SnakeTable::update()

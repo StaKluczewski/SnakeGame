@@ -1,2 +1,5 @@
-﻿  SnakeGame.cpp
-  SnakeGame.vcxproj -> C:\Users\User\Documents\GitHub\SnakeGame\Debug\SnakeGame.exe
+﻿  Snake.cpp
+F:\Github\SnakeGame\SnakeGame\Snake.cpp(42,24): warning C4018: '<': signed/unsigned mismatch
+F:\Github\SnakeGame\SnakeGame\Snake.cpp(55,15): warning C4566: character represented by universal-character-name '\u0142' cannot be represented in the current code page (1252)
+F:\Github\SnakeGame\SnakeGame\Snake.cpp(62,14): warning C4566: character represented by universal-character-name '\u0142' cannot be represented in the current code page (1252)
+  SnakeGame.vcxproj -> F:\Github\SnakeGame\Debug\SnakeGame.exe
