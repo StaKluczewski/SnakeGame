@@ -1,16 +1,2 @@
-﻿  Snake.cpp
-F:\Github\SnakeGame\SnakeGame\Snake.cpp(22,24): warning C4018: '<': signed/unsigned mismatch
-F:\Github\SnakeGame\SnakeGame\Snake.cpp(33,24): warning C4018: '<': signed/unsigned mismatch
-F:\Github\SnakeGame\SnakeGame\Snake.cpp(45,23): warning C4018: '<': signed/unsigned mismatch
-F:\Github\SnakeGame\SnakeGame\Snake.cpp(53,23): warning C4018: '<': signed/unsigned mismatch
-  SnakeGame.cpp
-F:\Github\SnakeGame\SnakeGame\SnakeGame.cpp(109,10): warning C4566: character represented by universal-character-name '\u0118' cannot be represented in the current code page (1252)
-F:\Github\SnakeGame\SnakeGame\SnakeGame.cpp(109,10): warning C4566: character represented by universal-character-name '\u0141' cannot be represented in the current code page (1252)
-  SnakeTable.cpp
-F:\Github\SnakeGame\SnakeGame\SnakeTable.cpp(11,23): warning C4018: '<': signed/unsigned mismatch
-F:\Github\SnakeGame\SnakeGame\SnakeTable.cpp(24,23): warning C4018: '<': signed/unsigned mismatch
-F:\Github\SnakeGame\SnakeGame\SnakeTable.cpp(52,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
-F:\Github\SnakeGame\SnakeGame\SnakeTable.cpp(129): warning C4715: 'SnakeTable::update': not all control paths return a value
-F:\Github\SnakeGame\SnakeGame\Snake.cpp(38): warning C4715: 'Snake::move': not all control paths return a value
-  SnakeGame.vcxproj -> F:\Github\SnakeGame\Debug\SnakeGame.exe
+﻿  SnakeGame.cpp
+  SnakeGame.vcxproj -> C:\Users\User\Documents\GitHub\SnakeGame\Debug\SnakeGame.exe

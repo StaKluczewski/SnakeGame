@@ -1,693 +1,693 @@
-stdio    D         file_stdio.c:110  file_stdio_fopen                 [   0,00000] opening F:\Github\SnakeGame\Debug\allegro5.cfg r
-system   D            wsystem.c:819  maybe_parent_dir                 [   0,00000] Also searching F:\Github\SnakeGame\
+stdio    D         file_stdio.c:110  file_stdio_fopen                 [   0,00000] opening C:\Users\User\Documents\GitHub\SnakeGame\Debug\allegro5.cfg r
+system   D            wsystem.c:819  maybe_parent_dir                 [   0,00000] Also searching C:\Users\User\Documents\GitHub\SnakeGame\
 system   D            wsystem.c:874  _al_win_safe_load_library        [   0,00000] PathFindOnPath found: C:\WINDOWS\system32\shcore.dll
 system   D            wsystem.c:780  load_library_at_path             [   0,00000] Calling LoadLibrary C:\WINDOWS\system32\shcore.dll
 system   I            wsystem.c:783  load_library_at_path             [   0,00000] Loaded C:\WINDOWS\system32\shcore.dll
 system   I             system.c:271  al_install_system                [   0,00000] Allegro version: 5.2.7
-system   D            wsystem.c:819  maybe_parent_dir                 [   0,00057] Also searching F:\Github\SnakeGame\
-system   D            wsystem.c:874  _al_win_safe_load_library        [   0,00148] PathFindOnPath found: C:\WINDOWS\system32\d3d9.dll
-system   D            wsystem.c:780  load_library_at_path             [   0,00219] Calling LoadLibrary C:\WINDOWS\system32\d3d9.dll
-system   I            wsystem.c:783  load_library_at_path             [   0,01623] Loaded C:\WINDOWS\system32\d3d9.dll
-d3d      I         d3d_disp.cpp:684  d3d_init_display                 [   0,11356] Render-to-texture: 1
-d3d      I         d3d_disp.cpp:1782 d3d_create_display_locked        [   0,11556] faux_fullscreen=0
-d3d      D         d3d_disp.cpp:1783 d3d_create_display_locked        [   0,11572] al_display=0175FCB0
-d3d      D         d3d_disp.cpp:1784 d3d_create_display_locked        [   0,11587] al_display->vt=016DF208
-d3d      I d3d_display_formats.cpp:144  _al_d3d_generate_display_format_list [   0,12353] found 160 format combinations
-display  D   display_settings.c:212  debug_display_settings           [   0,12372] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12390] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,12411] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12425] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,12443] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12464] Score is : 726
-display  D   display_settings.c:212  debug_display_settings           [   0,12479] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12505] Score is : 721
-display  D   display_settings.c:212  debug_display_settings           [   0,12540] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12603] Score is : 717
-display  D   display_settings.c:212  debug_display_settings           [   0,12618] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12632] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,12651] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12675] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,12687] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12700] Score is : 726
-display  D   display_settings.c:212  debug_display_settings           [   0,12709] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12720] Score is : 721
-display  D   display_settings.c:212  debug_display_settings           [   0,12732] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12755] Score is : 717
-display  D   display_settings.c:212  debug_display_settings           [   0,12767] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12778] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,12788] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12799] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,12809] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12819] Score is : 726
-display  D   display_settings.c:212  debug_display_settings           [   0,12831] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12845] Score is : 721
-display  D   display_settings.c:212  debug_display_settings           [   0,12861] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12894] Score is : 717
-display  D   display_settings.c:212  debug_display_settings           [   0,12920] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12936] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,12951] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12964] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,12974] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,12986] Score is : 726
-display  D   display_settings.c:212  debug_display_settings           [   0,13002] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13017] Score is : 721
-display  D   display_settings.c:212  debug_display_settings           [   0,13029] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13042] Score is : 717
-display  D   display_settings.c:212  debug_display_settings           [   0,13052] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13062] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,13073] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13084] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,13101] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13115] Score is : 726
-display  D   display_settings.c:212  debug_display_settings           [   0,13127] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13141] Score is : 721
-display  D   display_settings.c:212  debug_display_settings           [   0,13153] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13166] Score is : 717
-display  D   display_settings.c:212  debug_display_settings           [   0,13176] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13188] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,13199] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13211] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,13222] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13232] Score is : 726
-display  D   display_settings.c:212  debug_display_settings           [   0,13243] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13256] Score is : 721
-display  D   display_settings.c:212  debug_display_settings           [   0,13268] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13283] Score is : 717
-display  D   display_settings.c:212  debug_display_settings           [   0,13294] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13305] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,13316] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13327] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,13337] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13348] Score is : 726
-display  D   display_settings.c:212  debug_display_settings           [   0,13357] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13369] Score is : 721
-display  D   display_settings.c:212  debug_display_settings           [   0,13379] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13390] Score is : 717
-display  D   display_settings.c:212  debug_display_settings           [   0,13400] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13411] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,13422] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13432] Score is : 897
-display  D   display_settings.c:212  debug_display_settings           [   0,13443] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13455] Score is : 726
-display  D   display_settings.c:212  debug_display_settings           [   0,13465] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13474] Score is : 721
-display  D   display_settings.c:212  debug_display_settings           [   0,13485] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,13499] Score is : 717
-display  D   display_settings.c:212  debug_display_settings           [   0,13509] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13521] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13532] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13543] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13554] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13565] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13575] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13587] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13597] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13609] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13619] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13632] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13642] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13654] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13664] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13678] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13691] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13705] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13717] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13731] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13744] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13755] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13765] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13776] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13787] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13800] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13811] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13821] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13830] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13843] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13855] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13869] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13880] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13902] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13915] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13928] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13943] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13956] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13968] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,13984] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,13996] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,14011] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,14024] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,14037] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,14052] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,14064] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,14073] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,14103] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,14405] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,14845] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,14866] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,14933] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15279] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15327] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15370] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15385] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15399] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15413] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15469] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15498] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15517] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15531] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15585] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15633] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15671] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15690] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15712] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15728] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15747] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15759] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15787] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15799] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15808] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15817] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,15831] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,15842] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,16004] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,16041] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,16084] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,16266] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,16306] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16339] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,16385] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16415] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,16433] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16453] Score is : 598
-display  D   display_settings.c:212  debug_display_settings           [   0,16465] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16483] Score is : 593
-display  D   display_settings.c:212  debug_display_settings           [   0,16505] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16517] Score is : 589
-display  D   display_settings.c:212  debug_display_settings           [   0,16580] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16659] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,16694] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16707] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,16728] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16750] Score is : 598
-display  D   display_settings.c:212  debug_display_settings           [   0,16773] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16797] Score is : 593
-display  D   display_settings.c:212  debug_display_settings           [   0,16817] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16843] Score is : 589
-display  D   display_settings.c:212  debug_display_settings           [   0,16870] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16902] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,16926] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16944] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,16959] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,16977] Score is : 598
-display  D   display_settings.c:212  debug_display_settings           [   0,16990] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17006] Score is : 593
-display  D   display_settings.c:212  debug_display_settings           [   0,17018] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17033] Score is : 589
-display  D   display_settings.c:212  debug_display_settings           [   0,17045] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17060] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,17080] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17101] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,17146] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17190] Score is : 598
-display  D   display_settings.c:212  debug_display_settings           [   0,17204] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17222] Score is : 593
-display  D   display_settings.c:212  debug_display_settings           [   0,17242] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17260] Score is : 589
-display  D   display_settings.c:212  debug_display_settings           [   0,17279] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17297] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,17309] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17322] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,17334] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17346] Score is : 598
-display  D   display_settings.c:212  debug_display_settings           [   0,17358] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17370] Score is : 593
-display  D   display_settings.c:212  debug_display_settings           [   0,17382] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17395] Score is : 589
-display  D   display_settings.c:212  debug_display_settings           [   0,17416] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17428] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,17436] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17533] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,17553] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17569] Score is : 598
-display  D   display_settings.c:212  debug_display_settings           [   0,17580] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17590] Score is : 593
-display  D   display_settings.c:212  debug_display_settings           [   0,17609] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17693] Score is : 589
-display  D   display_settings.c:212  debug_display_settings           [   0,17704] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17715] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,17724] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17751] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,17767] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17781] Score is : 598
-display  D   display_settings.c:212  debug_display_settings           [   0,17796] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17812] Score is : 593
-display  D   display_settings.c:212  debug_display_settings           [   0,17827] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17846] Score is : 589
-display  D   display_settings.c:212  debug_display_settings           [   0,17862] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17877] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,17907] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17927] Score is : 769
-display  D   display_settings.c:212  debug_display_settings           [   0,17941] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,17972] Score is : 598
-display  D   display_settings.c:212  debug_display_settings           [   0,17991] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,18012] Score is : 593
-display  D   display_settings.c:212  debug_display_settings           [   0,18028] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:527  _al_score_display_settings       [   0,18056] Score is : 589
-display  D   display_settings.c:212  debug_display_settings           [   0,18072] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18095] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18119] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18150] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18169] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18214] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18232] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18250] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18265] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18281] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18293] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18307] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18319] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18333] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18346] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18360] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18375] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18390] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18404] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18420] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18440] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18458] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18470] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18484] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18495] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18508] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18522] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18537] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18556] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18590] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18602] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18621] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18638] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18657] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18671] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18685] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18698] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18710] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18722] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18736] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18748] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18762] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18775] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18788] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18799] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18813] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18826] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18837] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18849] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18863] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18878] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18897] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18917] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18935] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18950] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18964] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,18980] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,18995] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,19015] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,19030] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,19081] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,19126] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,19148] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,19165] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,19181] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,19195] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,19210] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,19221] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,19235] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,19250] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,19261] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,19276] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,19290] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D   display_settings.c:398  _al_score_display_settings       [   0,19304] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,19316] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,19333] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,19361] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,19377] Single Buffer requirement not met.
-display  D   display_settings.c:212  debug_display_settings           [   0,19389] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 4/1
-display  D   display_settings.c:398  _al_score_display_settings       [   0,19408] Single Buffer requirement not met.
-d3d      D         d3d_disp.cpp:1682 d3d_create_display_internals     [   0,19427] Trying format 0.
-d3d      I         d3d_disp.cpp:1358 d3d_display_thread_proc          [   0,19531] Chose a display format: 23
-d3d      I         d3d_disp.cpp:1427 d3d_display_thread_proc          [   0,19551] Normal window.
-d3d      I         d3d_disp.cpp:791  d3d_create_device                [   0,26257] Using no depth stencil buffer
-d3d      D         d3d_disp.cpp:853  d3d_create_device                [   0,45237] BeginScene succeeded in create_device
-d3d      D         d3d_disp.cpp:861  d3d_create_device                [   0,45264] Success
-d3d      D         d3d_disp.cpp:1705 d3d_create_display_internals     [   0,45291] Resumed after wait.
-d3d      I         d3d_disp.cpp:1738 d3d_create_display_internals     [   0,45312] Format 0 succeeded.
-d3d      D         d3d_disp.cpp:1769 d3d_create_display_internals     [   0,45332] Returning d3d_display: 0175FCB0
-d3d      D         d3d_disp.cpp:1794 d3d_create_display_locked        [   0,45351] al_display=0175FCB0
-d3d      D         d3d_disp.cpp:1795 d3d_create_display_locked        [   0,45370] al_display->vt=016DF208
-system   D            wsystem.c:819  maybe_parent_dir                 [   0,45419] Also searching F:\Github\SnakeGame\
-system   D            wsystem.c:874  _al_win_safe_load_library        [   0,45457] PathFindOnPath found: C:\WINDOWS\system32\d3dx9_43.dll
-system   D            wsystem.c:780  load_library_at_path             [   0,45474] Calling LoadLibrary C:\WINDOWS\system32\d3dx9_43.dll
-system   I            wsystem.c:783  load_library_at_path             [   0,45794] Loaded C:\WINDOWS\system32\d3dx9_43.dll
-d3dx9    I        d3d_d3dx9.cpp:88   _imp_load_d3dx9_module_version   [   0,45873] Module "d3dx9_43.dll" loaded.
-dtor     D               dtor.c:196  _al_register_destructor          [   0,45920] added dtor for queue 0448FCC8, func 7A58170D
-dtor     D               dtor.c:196  _al_register_destructor          [   0,45950] added dtor for bitmap 04461378, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,46154] added dtor for bitmap 044CEE00, func 7A5817D0
-d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,46750] Fake format
-d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,46779] Fake format
-d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,46825] Fake format
-d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,46891] Fake format
-d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,46914] Fake format
-d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,46930] Fake format
-d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,46944] Fake format
-d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,46964] Fake format
-d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,46977] Fake format
-d3d      D         d3d_disp.cpp:1210 real_choose_bitmap_format        [   0,46990] Alpha doesn't match
-d3d      D         d3d_disp.cpp:1217 real_choose_bitmap_format        [   0,47054] Adapter format is 23
-d3d      D         d3d_disp.cpp:1220 real_choose_bitmap_format        [   0,47307] Found a format
-d3d      I         d3d_disp.cpp:2391 d3d_create_bitmap                [   0,47382] Chose bitmap format 9
-dtor     D               dtor.c:196  _al_register_destructor          [   0,47680] added dtor for bitmap 0CEE6848, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,47858] added dtor for sub_bitmap 0CF37C60, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,47905] added dtor for sub_bitmap 0CF37E00, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,47934] added dtor for sub_bitmap 0CF37FA0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,47952] added dtor for sub_bitmap 0CF38140, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,47976] added dtor for sub_bitmap 0CF392E8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,47993] added dtor for sub_bitmap 0CF39488, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48009] added dtor for sub_bitmap 0CF39628, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48026] added dtor for sub_bitmap 0CF397C8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48042] added dtor for sub_bitmap 0CF39968, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48057] added dtor for sub_bitmap 0CF39B08, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48070] added dtor for sub_bitmap 0CF39CA8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48089] added dtor for sub_bitmap 0CF39E48, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48124] added dtor for sub_bitmap 0CF39FE8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48142] added dtor for sub_bitmap 0CF3AEF0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48163] added dtor for sub_bitmap 0CF3AD48, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48182] added dtor for sub_bitmap 0CF3A1B0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48195] added dtor for sub_bitmap 0CF3A9F8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48208] added dtor for sub_bitmap 0CF3A358, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48221] added dtor for sub_bitmap 0CF3A500, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48234] added dtor for sub_bitmap 0CF3A850, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48246] added dtor for sub_bitmap 0CF3A6A8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48258] added dtor for sub_bitmap 0CF3ABA0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48273] added dtor for sub_bitmap 0CF3B360, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48285] added dtor for sub_bitmap 0CF3C598, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48298] added dtor for sub_bitmap 0CF3B1B8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48310] added dtor for sub_bitmap 0CF3BBA8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48324] added dtor for sub_bitmap 0CF3C3F0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48336] added dtor for sub_bitmap 0CF3BD50, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48351] added dtor for sub_bitmap 0CF3B508, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48366] added dtor for sub_bitmap 0CF3BEF8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48381] added dtor for sub_bitmap 0CF3C740, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48398] added dtor for sub_bitmap 0CF3C8E8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48414] added dtor for sub_bitmap 0CF3CA90, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48428] added dtor for sub_bitmap 0CF3CC38, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48442] added dtor for sub_bitmap 0CF3B6B0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48460] added dtor for sub_bitmap 0CF3CDE0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48475] added dtor for sub_bitmap 0CF3CF88, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48491] added dtor for sub_bitmap 0CF3BA00, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48509] added dtor for sub_bitmap 0CF3B858, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48525] added dtor for sub_bitmap 0CF3C0A0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48540] added dtor for sub_bitmap 0CF3C248, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48566] added dtor for sub_bitmap 0CF3EA98, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48583] added dtor for sub_bitmap 0CF3E748, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48606] added dtor for sub_bitmap 0CF3E8F0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48624] added dtor for sub_bitmap 0CF3E5A0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48649] added dtor for sub_bitmap 0CF3EDE8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48667] added dtor for sub_bitmap 0CF3EC40, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48694] added dtor for sub_bitmap 0CF3E0A8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48715] added dtor for sub_bitmap 0CF3EF90, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48732] added dtor for sub_bitmap 0CF3D1C0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48744] added dtor for sub_bitmap 0CF3DA08, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48766] added dtor for sub_bitmap 0CF3D6B8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48790] added dtor for sub_bitmap 0CF3D860, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48811] added dtor for sub_bitmap 0CF3D510, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48834] added dtor for sub_bitmap 0CF3E250, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48853] added dtor for sub_bitmap 0CF3D368, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48869] added dtor for sub_bitmap 0CF3DBB0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48882] added dtor for sub_bitmap 0CF3DD58, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48901] added dtor for sub_bitmap 0CF3DF00, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48917] added dtor for sub_bitmap 0CF3E3F8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48932] added dtor for sub_bitmap 0CF41F10, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48950] added dtor for sub_bitmap 0CF41A18, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48964] added dtor for sub_bitmap 0CF411D0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48977] added dtor for sub_bitmap 0CF42DF8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,48991] added dtor for sub_bitmap 0CF420B8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49005] added dtor for sub_bitmap 0CF42758, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49023] added dtor for sub_bitmap 0CF41BC0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49037] added dtor for sub_bitmap 0CF41D68, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49050] added dtor for sub_bitmap 0CF42260, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49061] added dtor for sub_bitmap 0CF42408, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49077] added dtor for sub_bitmap 0CF42C50, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49093] added dtor for sub_bitmap 0CF416C8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49108] added dtor for sub_bitmap 0CF425B0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49124] added dtor for sub_bitmap 0CF42900, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49139] added dtor for sub_bitmap 0CF42AA8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49155] added dtor for sub_bitmap 0CF41870, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49170] added dtor for sub_bitmap 0CF42FA0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49184] added dtor for sub_bitmap 0CF41378, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49203] added dtor for sub_bitmap 0CF41520, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49219] added dtor for sub_bitmap 0CF455C0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49233] added dtor for sub_bitmap 0CF44A28, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49249] added dtor for sub_bitmap 0CF44F20, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49269] added dtor for sub_bitmap 0CF44388, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49283] added dtor for sub_bitmap 0CF45FB0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49296] added dtor for sub_bitmap 0CF44BD0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49311] added dtor for sub_bitmap 0CF441E0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49326] added dtor for sub_bitmap 0CF44D78, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49339] added dtor for sub_bitmap 0CF446D8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49360] added dtor for sub_bitmap 0CF450C8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49372] added dtor for sub_bitmap 0CF45270, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49387] added dtor for sub_bitmap 0CF45E08, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49403] added dtor for sub_bitmap 0CF45910, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49422] added dtor for sub_bitmap 0CF44530, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49436] added dtor for sub_bitmap 0CF45768, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49452] added dtor for sub_bitmap 0CF45418, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49495] added dtor for sub_bitmap 0CF45C60, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49530] added dtor for sub_bitmap 0CF45AB8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49554] added dtor for sub_bitmap 0CF44880, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49576] added dtor for sub_bitmap 0CF46538, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49594] added dtor for sub_bitmap 0CF46F28, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49609] added dtor for sub_bitmap 0CF47AC0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49635] added dtor for sub_bitmap 0CF47E10, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49649] added dtor for sub_bitmap 0CF466E0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49663] added dtor for sub_bitmap 0CF47420, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49681] added dtor for sub_bitmap 0CF46888, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49696] added dtor for sub_bitmap 0CF46390, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49714] added dtor for sub_bitmap 0CF47FB8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49733] added dtor for sub_bitmap 0CF48160, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49750] added dtor for sub_bitmap 0CF46A30, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49766] added dtor for sub_bitmap 0CF46BD8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49787] added dtor for sub_bitmap 0CF46D80, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49803] added dtor for sub_bitmap 0CF470D0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49817] added dtor for sub_bitmap 0CF47278, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49830] added dtor for sub_bitmap 0CF47C68, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49842] added dtor for sub_bitmap 0CF475C8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49857] added dtor for sub_bitmap 0CF47770, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49872] added dtor for sub_bitmap 0CF47918, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49889] added dtor for sub_bitmap 0CF48F30, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49914] added dtor for sub_bitmap 0CF48D88, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49931] added dtor for sub_bitmap 0CF49920, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49959] added dtor for sub_bitmap 0CF495D0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49974] added dtor for sub_bitmap 0CF49AC8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,49989] added dtor for sub_bitmap 0CF48398, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50003] added dtor for sub_bitmap 0CF49E18, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50016] added dtor for sub_bitmap 0CF486E8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50028] added dtor for sub_bitmap 0CF49FC0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50042] added dtor for sub_bitmap 0CF49778, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50060] added dtor for sub_bitmap 0CF49428, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50074] added dtor for sub_bitmap 0CF49C70, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50100] added dtor for sub_bitmap 0CF490D8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50115] added dtor for sub_bitmap 0CF4A168, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50129] added dtor for sub_bitmap 0CF49280, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50149] added dtor for sub_bitmap 0CF48540, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50162] added dtor for sub_bitmap 0CF48890, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50172] added dtor for sub_bitmap 0CF48A38, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50185] added dtor for sub_bitmap 0CF48BE0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50198] added dtor for sub_bitmap 0CF4C5E0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50215] added dtor for sub_bitmap 0CF4C0E8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50231] added dtor for sub_bitmap 0CF4B550, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50243] added dtor for sub_bitmap 0CF4CAD8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50260] added dtor for sub_bitmap 0CF4C788, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50273] added dtor for sub_bitmap 0CF4CE28, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50286] added dtor for sub_bitmap 0CF4BA48, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50305] added dtor for sub_bitmap 0CF4B6F8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50324] added dtor for sub_bitmap 0CF4CFD0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50342] added dtor for sub_bitmap 0CF4D178, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50364] added dtor for sub_bitmap 0CF4C930, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50379] added dtor for sub_bitmap 0CF4B3A8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50391] added dtor for sub_bitmap 0CF4CC80, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50403] added dtor for sub_bitmap 0CF4B8A0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50416] added dtor for sub_bitmap 0CF4BBF0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50430] added dtor for sub_bitmap 0CF4BD98, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50443] added dtor for sub_bitmap 0CF4BF40, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50455] added dtor for sub_bitmap 0CF4C290, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50467] added dtor for sub_bitmap 0CF4C438, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50483] added dtor for sub_bitmap 0CF4D8A8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50497] added dtor for sub_bitmap 0CF4E790, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50508] added dtor for sub_bitmap 0CF4EC88, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50523] added dtor for sub_bitmap 0CF4E938, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50536] added dtor for sub_bitmap 0CF4DA50, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50550] added dtor for sub_bitmap 0CF4D700, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50562] added dtor for sub_bitmap 0CF4DBF8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50576] added dtor for sub_bitmap 0CF4D558, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50589] added dtor for sub_bitmap 0CF4E0F0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50605] added dtor for sub_bitmap 0CF4EAE0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50639] added dtor for sub_bitmap 0CF4DF48, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50661] added dtor for sub_bitmap 0CF4DDA0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50677] added dtor for sub_bitmap 0CF4E298, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50695] added dtor for sub_bitmap 0CF4EE30, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50710] added dtor for sub_bitmap 0CF4E440, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50727] added dtor for sub_bitmap 0CF4E5E8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50739] added dtor for sub_bitmap 0CF4EFD8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50767] added dtor for sub_bitmap 0CF4F180, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50805] added dtor for sub_bitmap 0CF4D3B0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50821] added dtor for sub_bitmap 0CF4FF58, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50833] added dtor for sub_bitmap 0CF50C98, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50845] added dtor for sub_bitmap 0CF4FA60, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50859] added dtor for sub_bitmap 0CF4F568, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50873] added dtor for sub_bitmap 0CF51688, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50893] added dtor for sub_bitmap 0CF51338, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50909] added dtor for sub_bitmap 0CF4FDB0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50926] added dtor for sub_bitmap 0CF50FE8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50944] added dtor for sub_bitmap 0CF519D8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50961] added dtor for sub_bitmap 0CF51830, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50977] added dtor for sub_bitmap 0CF50948, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,50992] added dtor for sub_bitmap 0CF523C8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51004] added dtor for sub_bitmap 0CF51ED0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51018] added dtor for sub_bitmap 0CF52718, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51036] added dtor for sub_bitmap 0CF51190, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51049] added dtor for sub_bitmap 0CF507A0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51062] added dtor for sub_bitmap 0CF4F3C0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51083] added dtor for sub_bitmap 0CF50450, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51156] added dtor for sub_bitmap 0CF4FC08, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51177] added dtor for sub_bitmap 0CF50AF0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51195] added dtor for sub_bitmap 0CF505F8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51208] added dtor for sub_bitmap 0CF51B80, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51219] added dtor for sub_bitmap 0CF514E0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51233] added dtor for sub_bitmap 0CF51D28, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51246] added dtor for sub_bitmap 0CF52078, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51283] added dtor for sub_bitmap 0CF52220, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51312] added dtor for sub_bitmap 0CF4F710, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51327] added dtor for sub_bitmap 0CF50100, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51339] added dtor for sub_bitmap 0CF52570, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51357] added dtor for sub_bitmap 0CF4F8B8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51417] added dtor for sub_bitmap 0CF502A8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51466] added dtor for sub_bitmap 0CF50E40, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51511] added dtor for sub_bitmap 0CF52C10, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51530] added dtor for sub_bitmap 0CF52DB8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51559] added dtor for sub_bitmap 0CF52F60, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51588] added dtor for sub_bitmap 0CF53108, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51607] added dtor for sub_bitmap 0CF528C0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51628] added dtor for sub_bitmap 0CF52A68, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51656] added dtor for sub_bitmap 0CF58580, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51680] added dtor for sub_bitmap 0CF56958, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51694] added dtor for sub_bitmap 0CF59610, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51723] added dtor for sub_bitmap 0CF56E50, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51736] added dtor for sub_bitmap 0CF579E8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51772] added dtor for sub_bitmap 0CF57840, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51800] added dtor for sub_bitmap 0CF56B00, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51812] added dtor for sub_bitmap 0CF574F0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51839] added dtor for sub_bitmap 0CF57EE0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51859] added dtor for sub_bitmap 0CF56CA8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51884] added dtor for sub_bitmap 0CF59960, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51911] added dtor for sub_bitmap 0CF57698, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51927] added dtor for sub_bitmap 0CF567B0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51942] added dtor for sub_bitmap 0CF56FF8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,51974] added dtor for sub_bitmap 0CF571A0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52011] added dtor for sub_bitmap 0CF57348, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52029] added dtor for sub_bitmap 0CF57B90, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52050] added dtor for sub_bitmap 0CF59118, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52095] added dtor for sub_bitmap 0CF588D0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52128] added dtor for sub_bitmap 0CF59468, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52141] added dtor for sub_bitmap 0CF57D38, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52181] added dtor for sub_bitmap 0CF58088, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52193] added dtor for sub_bitmap 0CF58728, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52218] added dtor for sub_bitmap 0CF58230, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52235] added dtor for sub_bitmap 0CF583D8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52255] added dtor for sub_bitmap 0CF597B8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52282] added dtor for sub_bitmap 0CF58A78, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52326] added dtor for sub_bitmap 0CF58C20, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52354] added dtor for sub_bitmap 0CF592C0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52378] added dtor for sub_bitmap 0CF58DC8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52396] added dtor for sub_bitmap 0CF58F70, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52412] added dtor for sub_bitmap 0CF56608, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52433] added dtor for sub_bitmap 0CF59E58, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52449] added dtor for sub_bitmap 0CF5A000, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52468] added dtor for sub_bitmap 0CF5A350, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52496] added dtor for sub_bitmap 0CF59B08, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52522] added dtor for sub_bitmap 0CF5A1A8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52561] added dtor for sub_bitmap 0CF59CB0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52588] added dtor for sub_bitmap 0CF5BB98, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52659] added dtor for sub_bitmap 0CF5AE58, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52677] added dtor for sub_bitmap 0CF5C238, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52697] added dtor for sub_bitmap 0CF5B6A0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52713] added dtor for sub_bitmap 0CF5B848, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52730] added dtor for sub_bitmap 0CF5B9F0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52746] added dtor for sub_bitmap 0CF5BD40, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52769] added dtor for sub_bitmap 0CF5C090, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52790] added dtor for sub_bitmap 0CF5D120, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52825] added dtor for sub_bitmap 0CF5ACB0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52870] added dtor for sub_bitmap 0CF5CC28, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52889] added dtor for sub_bitmap 0CF5B350, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52907] added dtor for sub_bitmap 0CF5BEE8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52923] added dtor for sub_bitmap 0CF5B000, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52940] added dtor for sub_bitmap 0CF5C3E0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52954] added dtor for sub_bitmap 0CF5B1A8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52967] added dtor for sub_bitmap 0CF5B4F8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52981] added dtor for sub_bitmap 0CF5C8D8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,52998] added dtor for sub_bitmap 0CF5C588, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53011] added dtor for sub_bitmap 0CF5C730, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53025] added dtor for sub_bitmap 0CF5D2C8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53039] added dtor for sub_bitmap 0CF5CA80, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53054] added dtor for sub_bitmap 0CF5CDD0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53067] added dtor for sub_bitmap 0CF5CF78, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53081] added dtor for sub_bitmap 0CF5D470, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53103] added dtor for sub_bitmap 0CF5A610, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53118] added dtor for sub_bitmap 0CF5D618, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53134] added dtor for sub_bitmap 0CF5A7B8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53147] added dtor for sub_bitmap 0CF5D7C0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53159] added dtor for sub_bitmap 0CF5D968, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53171] added dtor for sub_bitmap 0CF5A960, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53190] added dtor for sub_bitmap 0CF5AB08, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53207] added dtor for sub_bitmap 0CF5DCB8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53223] added dtor for sub_bitmap 0CF5DB10, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53236] added dtor for sub_bitmap 0CF5DE60, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53257] added dtor for sub_bitmap 0CF5E1B0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53279] added dtor for sub_bitmap 0CF5E358, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53298] added dtor for sub_bitmap 0CF5E008, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53315] added dtor for sub_bitmap 0CF61D50, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53338] added dtor for sub_bitmap 0CF60620, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53354] added dtor for sub_bitmap 0CF62248, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53371] added dtor for sub_bitmap 0CF628E8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53397] added dtor for sub_bitmap 0CF620A0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53410] added dtor for sub_bitmap 0CF61BA8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53430] added dtor for sub_bitmap 0CF623F0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53443] added dtor for sub_bitmap 0CF63480, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53457] added dtor for sub_bitmap 0CF60E68, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53473] added dtor for sub_bitmap 0CF62598, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53487] added dtor for sub_bitmap 0CF61010, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53503] added dtor for sub_bitmap 0CF61EF8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53526] added dtor for sub_bitmap 0CF62740, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53544] added dtor for sub_bitmap 0CF607C8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53562] added dtor for sub_bitmap 0CF62A90, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53581] added dtor for sub_bitmap 0CF637D0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53600] added dtor for sub_bitmap 0CF616B0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53637] added dtor for sub_bitmap 0CF62C38, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53654] added dtor for sub_bitmap 0CF61A00, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53668] added dtor for sub_bitmap 0CF60970, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53681] added dtor for sub_bitmap 0CF60B18, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53726] added dtor for sub_bitmap 0CF611B8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53749] added dtor for sub_bitmap 0CF60CC0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53767] added dtor for sub_bitmap 0CF61360, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53786] added dtor for sub_bitmap 0CF63978, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53801] added dtor for sub_bitmap 0CF61508, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53814] added dtor for sub_bitmap 0CF632D8, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53828] added dtor for sub_bitmap 0CF62DE0, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53845] added dtor for sub_bitmap 0CF62F88, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53862] added dtor for sub_bitmap 0CF63130, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53881] added dtor for sub_bitmap 0CF61858, func 7A5817D0
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53903] added dtor for sub_bitmap 0CF63628, func 7A5817D0
-dtor     D               dtor.c:227  _al_unregister_destructor        [   0,53938] removed dtor for bitmap 044CEE00
-dtor     D               dtor.c:196  _al_register_destructor          [   0,53998] added dtor for font 04472AA0, func 7A7D100F
-dtor     D               dtor.c:227  _al_unregister_destructor        [   0,54014] removed dtor for bitmap 04461378
-d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   1,05159] _al_d3d_sync_bitmap (system) ref count == 1
-d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   1,05182] _al_d3d_sync_bitmap (video) ref count == 1
+system   D            wsystem.c:819  maybe_parent_dir                 [   0,00066] Also searching C:\Users\User\Documents\GitHub\SnakeGame\
+system   D            wsystem.c:874  _al_win_safe_load_library        [   0,00153] PathFindOnPath found: C:\WINDOWS\system32\d3d9.dll
+system   D            wsystem.c:780  load_library_at_path             [   0,00177] Calling LoadLibrary C:\WINDOWS\system32\d3d9.dll
+system   I            wsystem.c:783  load_library_at_path             [   0,00817] Loaded C:\WINDOWS\system32\d3d9.dll
+d3d      I         d3d_disp.cpp:684  d3d_init_display                 [   0,06771] Render-to-texture: 1
+d3d      I         d3d_disp.cpp:1782 d3d_create_display_locked        [   0,06888] faux_fullscreen=0
+d3d      D         d3d_disp.cpp:1783 d3d_create_display_locked        [   0,06906] al_display=01039270
+d3d      D         d3d_disp.cpp:1784 d3d_create_display_locked        [   0,06924] al_display->vt=010213D0
+d3d      I d3d_display_formats.cpp:144  _al_d3d_generate_display_format_list [   0,07588] found 160 format combinations
+display  D   display_settings.c:212  debug_display_settings           [   0,07618] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,07638] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,07658] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,07683] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,07701] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,07722] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0,07744] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,07765] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0,07784] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,07806] Score is : 717
+display  D   display_settings.c:212  debug_display_settings           [   0,07826] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,07845] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,07866] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,07907] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,07935] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,07952] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0,07982] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08005] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0,08034] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08057] Score is : 717
+display  D   display_settings.c:212  debug_display_settings           [   0,08081] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08101] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,08122] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08151] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,08187] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08210] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0,08233] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08253] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0,08277] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08297] Score is : 717
+display  D   display_settings.c:212  debug_display_settings           [   0,08316] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08336] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,08357] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08391] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,08413] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08433] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0,08449] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08474] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0,08499] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08537] Score is : 717
+display  D   display_settings.c:212  debug_display_settings           [   0,08564] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08592] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,08618] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,08664] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,09545] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,09637] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0,09666] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,09691] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0,09718] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,09760] Score is : 717
+display  D   display_settings.c:212  debug_display_settings           [   0,09796] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,09820] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,09841] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,09864] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,09887] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,09908] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0,09930] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,09948] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0,09966] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,09984] Score is : 717
+display  D   display_settings.c:212  debug_display_settings           [   0,10002] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,10028] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,10051] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,10077] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,10098] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,10125] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0,10162] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,10205] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0,10230] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,10272] Score is : 717
+display  D   display_settings.c:212  debug_display_settings           [   0,10294] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,10315] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,10338] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,10364] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0,10388] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,10411] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0,10432] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,10452] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0,10478] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,10500] Score is : 717
+display  D   display_settings.c:212  debug_display_settings           [   0,10520] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,10541] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,10571] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,10595] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,10615] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,10647] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,10671] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,10691] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,10711] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,10732] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,10752] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,10773] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,10794] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,10827] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,10849] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,10869] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,10892] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,10912] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,10931] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,10952] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,10975] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,10995] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11014] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11035] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11058] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11080] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11102] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11121] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11146] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11174] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11209] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11250] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11344] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11380] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11404] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11431] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11459] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11481] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11501] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11526] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11545] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11573] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11602] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11633] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11654] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11674] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11694] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11715] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11737] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11758] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11781] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11808] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11836] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11857] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11904] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11926] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11946] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,11966] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,11988] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,12010] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,12029] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,12055] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,12073] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,12094] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,12115] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,12144] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,12165] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,12189] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,12213] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,12255] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,12292] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,12322] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,12344] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,12367] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,12385] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,12406] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,12423] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,12448] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,12475] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,12511] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,12544] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,12659] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,12716] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,12740] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,12767] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,12792] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0,12820] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,12876] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0,12915] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,12951] Score is : 589
+display  D   display_settings.c:212  debug_display_settings           [   0,12994] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13035] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,13090] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13464] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,13494] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13521] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0,13541] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13568] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0,13593] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13615] Score is : 589
+display  D   display_settings.c:212  debug_display_settings           [   0,13640] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13659] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,13679] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13699] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,13718] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13738] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0,13760] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13781] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0,13801] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13831] Score is : 589
+display  D   display_settings.c:212  debug_display_settings           [   0,13852] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13874] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,13895] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13916] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,13934] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,13964] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0,13989] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14011] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0,14039] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14064] Score is : 589
+display  D   display_settings.c:212  debug_display_settings           [   0,14082] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14106] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,14127] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14151] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,14191] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14224] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0,14279] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14311] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0,14330] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14351] Score is : 589
+display  D   display_settings.c:212  debug_display_settings           [   0,14370] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14391] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,14412] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14439] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,14477] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14500] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0,14521] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14544] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0,14650] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14687] Score is : 589
+display  D   display_settings.c:212  debug_display_settings           [   0,14711] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14731] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,14749] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14769] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,14791] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14817] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0,14848] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14875] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0,14899] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14923] Score is : 589
+display  D   display_settings.c:212  debug_display_settings           [   0,14942] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,14966] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,14985] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0,15004] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0,15033] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,15068] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0,15085] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,15108] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0,15133] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0,15168] Score is : 589
+display  D   display_settings.c:212  debug_display_settings           [   0,15207] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15233] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15262] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15311] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15373] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15405] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15425] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15446] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15488] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15509] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15541] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15571] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15597] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15619] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15637] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15655] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15674] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15701] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15720] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15748] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15765] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15788] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15808] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15829] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15861] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15893] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15919] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15948] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,15971] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,15999] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16021] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16050] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16105] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16129] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16176] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16201] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16230] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16253] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16275] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16299] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16319] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16352] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16370] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16391] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16409] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16427] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16443] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16466] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16489] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16506] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16531] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16570] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16589] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16606] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16623] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16647] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16672] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16695] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16714] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16801] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16844] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16881] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16912] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16946] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,16964] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,16987] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,17010] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,17034] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,17061] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,17088] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,17110] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,17168] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,17204] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0,17232] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,17260] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,17286] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,17312] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,17348] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0,17380] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 4/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0,17413] Single Buffer requirement not met.
+d3d      D         d3d_disp.cpp:1682 d3d_create_display_internals     [   0,17464] Trying format 0.
+d3d      I         d3d_disp.cpp:1358 d3d_display_thread_proc          [   0,17581] Chose a display format: 23
+d3d      I         d3d_disp.cpp:1427 d3d_display_thread_proc          [   0,17622] Normal window.
+d3d      I         d3d_disp.cpp:791  d3d_create_device                [   0,52094] Using no depth stencil buffer
+d3d      D         d3d_disp.cpp:853  d3d_create_device                [   0,65843] BeginScene succeeded in create_device
+d3d      D         d3d_disp.cpp:861  d3d_create_device                [   0,65890] Success
+d3d      D         d3d_disp.cpp:1705 d3d_create_display_internals     [   0,65915] Resumed after wait.
+d3d      I         d3d_disp.cpp:1738 d3d_create_display_internals     [   0,65947] Format 0 succeeded.
+d3d      D         d3d_disp.cpp:1769 d3d_create_display_internals     [   0,65966] Returning d3d_display: 01039270
+d3d      D         d3d_disp.cpp:1794 d3d_create_display_locked        [   0,65985] al_display=01039270
+d3d      D         d3d_disp.cpp:1795 d3d_create_display_locked        [   0,66004] al_display->vt=010213D0
+system   D            wsystem.c:819  maybe_parent_dir                 [   0,66041] Also searching C:\Users\User\Documents\GitHub\SnakeGame\
+system   D            wsystem.c:874  _al_win_safe_load_library        [   0,66086] PathFindOnPath found: C:\WINDOWS\system32\d3dx9_43.dll
+system   D            wsystem.c:780  load_library_at_path             [   0,66109] Calling LoadLibrary C:\WINDOWS\system32\d3dx9_43.dll
+system   I            wsystem.c:783  load_library_at_path             [   0,66397] Loaded C:\WINDOWS\system32\d3dx9_43.dll
+d3dx9    I        d3d_d3dx9.cpp:88   _imp_load_d3dx9_module_version   [   0,66428] Module "d3dx9_43.dll" loaded.
+dtor     D               dtor.c:196  _al_register_destructor          [   0,66463] added dtor for queue 05671E70, func 7CA6170D
+dtor     D               dtor.c:196  _al_register_destructor          [   0,66492] added dtor for bitmap 0562DA38, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,66573] added dtor for bitmap 0562DBD8, func 7CA617D0
+d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,66894] Fake format
+d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,66921] Fake format
+d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,66940] Fake format
+d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,66959] Fake format
+d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,66981] Fake format
+d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,67001] Fake format
+d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,67019] Fake format
+d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,67038] Fake format
+d3d      D         d3d_disp.cpp:1202 real_choose_bitmap_format        [   0,67057] Fake format
+d3d      D         d3d_disp.cpp:1210 real_choose_bitmap_format        [   0,67076] Alpha doesn't match
+d3d      D         d3d_disp.cpp:1217 real_choose_bitmap_format        [   0,67097] Adapter format is 23
+d3d      D         d3d_disp.cpp:1220 real_choose_bitmap_format        [   0,67116] Found a format
+d3d      I         d3d_disp.cpp:2391 d3d_create_bitmap                [   0,67137] Chose bitmap format 9
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67224] added dtor for bitmap 0562DF28, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67280] added dtor for sub_bitmap 05629E88, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67306] added dtor for sub_bitmap 0562A028, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67327] added dtor for sub_bitmap 09B6D958, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67345] added dtor for sub_bitmap 09B6DAF8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67364] added dtor for sub_bitmap 09B6DC98, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67383] added dtor for sub_bitmap 09B6DE38, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67406] added dtor for sub_bitmap 09B6DFD8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67428] added dtor for sub_bitmap 09B6E178, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67456] added dtor for sub_bitmap 09B6E318, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67482] added dtor for sub_bitmap 09B6E4B8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67504] added dtor for sub_bitmap 09B6E658, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67525] added dtor for sub_bitmap 09B6E7F8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67549] added dtor for sub_bitmap 09B6E998, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67594] added dtor for sub_bitmap 09A9EEA0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67620] added dtor for sub_bitmap 09A9F398, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67639] added dtor for sub_bitmap 09A9F6E8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67659] added dtor for sub_bitmap 09A9F540, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67740] added dtor for sub_bitmap 09A9F890, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67773] added dtor for sub_bitmap 09A9FBE0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67797] added dtor for sub_bitmap 09A9FA38, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67823] added dtor for sub_bitmap 09A9F048, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67857] added dtor for sub_bitmap 09A9F1F0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67879] added dtor for sub_bitmap 056CC9A0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67900] added dtor for sub_bitmap 056CDD80, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67920] added dtor for sub_bitmap 056CDF28, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,67943] added dtor for sub_bitmap 056CD390, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68029] added dtor for sub_bitmap 056CC300, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68059] added dtor for sub_bitmap 056CDBD8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68084] added dtor for sub_bitmap 056CE0D0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68107] added dtor for sub_bitmap 056CC4A8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68130] added dtor for sub_bitmap 056CC650, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68157] added dtor for sub_bitmap 056CD888, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68181] added dtor for sub_bitmap 056CC7F8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68200] added dtor for sub_bitmap 056CCB48, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68240] added dtor for sub_bitmap 056CCCF0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68266] added dtor for sub_bitmap 056CDA30, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68287] added dtor for sub_bitmap 056CD6E0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68319] added dtor for sub_bitmap 056CD538, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68344] added dtor for sub_bitmap 056CCE98, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68375] added dtor for sub_bitmap 056CD040, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68409] added dtor for sub_bitmap 056CD1E8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68437] added dtor for sub_bitmap 09B70F48, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68462] added dtor for sub_bitmap 09B70BF8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68489] added dtor for sub_bitmap 09B70A50, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68509] added dtor for sub_bitmap 09B70DA0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68530] added dtor for sub_bitmap 09B71440, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68561] added dtor for sub_bitmap 09B710F0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68596] added dtor for sub_bitmap 09B6FD10, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68621] added dtor for sub_bitmap 09B71298, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68643] added dtor for sub_bitmap 09B70208, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68697] added dtor for sub_bitmap 09B70060, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68735] added dtor for sub_bitmap 09B715E8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68759] added dtor for sub_bitmap 09B71790, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68782] added dtor for sub_bitmap 09B70700, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68802] added dtor for sub_bitmap 09B70558, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68829] added dtor for sub_bitmap 09B71938, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68855] added dtor for sub_bitmap 09B708A8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68878] added dtor for sub_bitmap 09B6FEB8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68902] added dtor for sub_bitmap 09B6FB68, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68940] added dtor for sub_bitmap 09B703B0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,68970] added dtor for sub_bitmap 09B72DA8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69000] added dtor for sub_bitmap 09B73798, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69032] added dtor for sub_bitmap 09B723B8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69056] added dtor for sub_bitmap 09B73448, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69096] added dtor for sub_bitmap 09B72560, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69119] added dtor for sub_bitmap 09B72068, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69192] added dtor for sub_bitmap 09B72708, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69220] added dtor for sub_bitmap 09B728B0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69242] added dtor for sub_bitmap 09B72A58, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69271] added dtor for sub_bitmap 09B71D18, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69295] added dtor for sub_bitmap 09B72C00, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69319] added dtor for sub_bitmap 09B73940, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69342] added dtor for sub_bitmap 09B71EC0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69366] added dtor for sub_bitmap 09B72F50, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69390] added dtor for sub_bitmap 09B735F0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69423] added dtor for sub_bitmap 09B71B70, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69449] added dtor for sub_bitmap 09B72210, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69489] added dtor for sub_bitmap 09B730F8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69538] added dtor for sub_bitmap 09B732A0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69572] added dtor for sub_bitmap 09B74710, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69594] added dtor for sub_bitmap 09B73EC8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69629] added dtor for sub_bitmap 09B757A0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69656] added dtor for sub_bitmap 09B74568, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69676] added dtor for sub_bitmap 09B74070, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69714] added dtor for sub_bitmap 09B74218, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69748] added dtor for sub_bitmap 09B748B8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69778] added dtor for sub_bitmap 09B73D20, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69803] added dtor for sub_bitmap 09B743C0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69824] added dtor for sub_bitmap 09B752A8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69845] added dtor for sub_bitmap 09B74A60, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69869] added dtor for sub_bitmap 09B74C08, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69889] added dtor for sub_bitmap 09B75948, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69912] added dtor for sub_bitmap 09B73B78, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69931] added dtor for sub_bitmap 09B74DB0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69953] added dtor for sub_bitmap 09B74F58, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69976] added dtor for sub_bitmap 09B75100, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,69996] added dtor for sub_bitmap 09B75450, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70019] added dtor for sub_bitmap 09B755F8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70058] added dtor for sub_bitmap 09B77A70, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70096] added dtor for sub_bitmap 09B77F68, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70140] added dtor for sub_bitmap 09B782B8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70167] added dtor for sub_bitmap 09B778C8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70187] added dtor for sub_bitmap 09B77C18, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70210] added dtor for sub_bitmap 09B76B88, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70233] added dtor for sub_bitmap 09B77228, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70255] added dtor for sub_bitmap 09B773D0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70275] added dtor for sub_bitmap 09B77720, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70298] added dtor for sub_bitmap 09B787B0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70319] added dtor for sub_bitmap 09B78608, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70340] added dtor for sub_bitmap 09B77DC0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70364] added dtor for sub_bitmap 09B78460, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70383] added dtor for sub_bitmap 09B76D30, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70403] added dtor for sub_bitmap 09B78958, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70423] added dtor for sub_bitmap 09B76ED8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70442] added dtor for sub_bitmap 09B77578, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70467] added dtor for sub_bitmap 09B77080, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70485] added dtor for sub_bitmap 09B78110, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70505] added dtor for sub_bitmap 09B7C618, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70522] added dtor for sub_bitmap 09B7BC28, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70542] added dtor for sub_bitmap 09B7B8D8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70584] added dtor for sub_bitmap 09B7B588, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70625] added dtor for sub_bitmap 09B7BA80, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70664] added dtor for sub_bitmap 09B7B238, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70686] added dtor for sub_bitmap 09B7C2C8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70737] added dtor for sub_bitmap 09B7AB98, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70761] added dtor for sub_bitmap 09B7C968, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70783] added dtor for sub_bitmap 09B7AD40, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70804] added dtor for sub_bitmap 09B7AEE8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70829] added dtor for sub_bitmap 09B7BDD0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70849] added dtor for sub_bitmap 09B7B090, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70871] added dtor for sub_bitmap 09B7BF78, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70891] added dtor for sub_bitmap 09B7B730, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70912] added dtor for sub_bitmap 09B7C120, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70947] added dtor for sub_bitmap 09B7C470, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70966] added dtor for sub_bitmap 09B7B3E0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,70986] added dtor for sub_bitmap 09B7C7C0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71010] added dtor for sub_bitmap 09B7E128, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71031] added dtor for sub_bitmap 09B7DF80, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71051] added dtor for sub_bitmap 09B7D098, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71072] added dtor for sub_bitmap 09B7D3E8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71096] added dtor for sub_bitmap 09B7E620, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71115] added dtor for sub_bitmap 09B7E2D0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71146] added dtor for sub_bitmap 09B7D590, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71167] added dtor for sub_bitmap 09B7DA88, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71191] added dtor for sub_bitmap 09B7D738, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71210] added dtor for sub_bitmap 09B7D240, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71233] added dtor for sub_bitmap 09B7E478, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71294] added dtor for sub_bitmap 09B7DDD8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71316] added dtor for sub_bitmap 09B7D8E0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71336] added dtor for sub_bitmap 09B7DC30, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71355] added dtor for sub_bitmap 09B7E7C8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71375] added dtor for sub_bitmap 09B7E970, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71396] added dtor for sub_bitmap 09B7CBA0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71417] added dtor for sub_bitmap 09B7CD48, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71435] added dtor for sub_bitmap 09B7CEF0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71462] added dtor for sub_bitmap 09B810A8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71483] added dtor for sub_bitmap 09B813F8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71503] added dtor for sub_bitmap 09B81C40, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71523] added dtor for sub_bitmap 09B815A0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71545] added dtor for sub_bitmap 09B81748, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71569] added dtor for sub_bitmap 09B827D8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71586] added dtor for sub_bitmap 09B80BB0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71615] added dtor for sub_bitmap 09B818F0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71636] added dtor for sub_bitmap 09B81DE8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71654] added dtor for sub_bitmap 09B81A98, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71682] added dtor for sub_bitmap 09B81F90, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71707] added dtor for sub_bitmap 09B82980, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71727] added dtor for sub_bitmap 09B82138, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71745] added dtor for sub_bitmap 09B82488, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71768] added dtor for sub_bitmap 09B82630, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71788] added dtor for sub_bitmap 09B80D58, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71809] added dtor for sub_bitmap 09B80F00, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71830] added dtor for sub_bitmap 09B822E0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71849] added dtor for sub_bitmap 09B81250, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71879] added dtor for sub_bitmap 09B842F0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71899] added dtor for sub_bitmap 09B84E88, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71919] added dtor for sub_bitmap 09B85878, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71940] added dtor for sub_bitmap 09B85030, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71964] added dtor for sub_bitmap 09B851D8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,71984] added dtor for sub_bitmap 09B85380, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72005] added dtor for sub_bitmap 09B83408, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72025] added dtor for sub_bitmap 09B83260, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72045] added dtor for sub_bitmap 09B85BC8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72073] added dtor for sub_bitmap 09B82BC0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72093] added dtor for sub_bitmap 09B85D70, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72114] added dtor for sub_bitmap 09B82D68, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72134] added dtor for sub_bitmap 09B84498, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72163] added dtor for sub_bitmap 09B83758, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72185] added dtor for sub_bitmap 09B85528, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72210] added dtor for sub_bitmap 09B82F10, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72231] added dtor for sub_bitmap 09B85F18, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72256] added dtor for sub_bitmap 09B84640, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72278] added dtor for sub_bitmap 09B830B8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72299] added dtor for sub_bitmap 09B835B0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72320] added dtor for sub_bitmap 09B856D0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72345] added dtor for sub_bitmap 09B84B38, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72368] added dtor for sub_bitmap 09B85A20, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72391] added dtor for sub_bitmap 09B84990, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72412] added dtor for sub_bitmap 09B84148, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72436] added dtor for sub_bitmap 09B83C50, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72463] added dtor for sub_bitmap 09B847E8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72486] added dtor for sub_bitmap 09B83900, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72507] added dtor for sub_bitmap 09B84CE0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72528] added dtor for sub_bitmap 09B83AA8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72550] added dtor for sub_bitmap 09B83DF8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72578] added dtor for sub_bitmap 09B83FA0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72608] added dtor for sub_bitmap 09B86760, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72631] added dtor for sub_bitmap 09B86410, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72651] added dtor for sub_bitmap 09B860C0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72671] added dtor for sub_bitmap 09B86268, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72693] added dtor for sub_bitmap 09B86908, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72713] added dtor for sub_bitmap 09B865B8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72736] added dtor for sub_bitmap 09B86D70, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72760] added dtor for sub_bitmap 09B87C58, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72780] added dtor for sub_bitmap 09B87E00, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72802] added dtor for sub_bitmap 09B88CE8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72824] added dtor for sub_bitmap 09B89880, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72845] added dtor for sub_bitmap 09B89A28, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72864] added dtor for sub_bitmap 09B88998, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72886] added dtor for sub_bitmap 09B87268, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72906] added dtor for sub_bitmap 09B884A0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72929] added dtor for sub_bitmap 09B89BD0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72950] added dtor for sub_bitmap 09B89388, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72971] added dtor for sub_bitmap 09B87760, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,72993] added dtor for sub_bitmap 09B87908, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73015] added dtor for sub_bitmap 09B891E0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73034] added dtor for sub_bitmap 09B88B40, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73057] added dtor for sub_bitmap 09B89D78, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73078] added dtor for sub_bitmap 09B89F20, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73101] added dtor for sub_bitmap 09B896D8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73123] added dtor for sub_bitmap 09B88E90, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73160] added dtor for sub_bitmap 09B89038, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73190] added dtor for sub_bitmap 09B875B8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73218] added dtor for sub_bitmap 09B870C0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73245] added dtor for sub_bitmap 09B88648, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73277] added dtor for sub_bitmap 09B86BC8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73314] added dtor for sub_bitmap 09B86F18, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73354] added dtor for sub_bitmap 09B87410, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73389] added dtor for sub_bitmap 09B87AB0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73409] added dtor for sub_bitmap 09B89530, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73427] added dtor for sub_bitmap 09B87FA8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73446] added dtor for sub_bitmap 09B88150, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73463] added dtor for sub_bitmap 09B882F8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73483] added dtor for sub_bitmap 09B887F0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73503] added dtor for sub_bitmap 09B8A5C0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73525] added dtor for sub_bitmap 09B8A768, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73541] added dtor for sub_bitmap 09B8A270, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73566] added dtor for sub_bitmap 09B8A910, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73585] added dtor for sub_bitmap 09B8A418, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73609] added dtor for sub_bitmap 09B8A0C8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73631] added dtor for sub_bitmap 09B8E0D0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73650] added dtor for sub_bitmap 09B8E770, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73672] added dtor for sub_bitmap 09B8E420, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73693] added dtor for sub_bitmap 09B8E5C8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73714] added dtor for sub_bitmap 09B8E278, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73733] added dtor for sub_bitmap 09B8E918, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73756] added dtor for sub_bitmap 09B8BC60, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73774] added dtor for sub_bitmap 09B8D1E8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73798] added dtor for sub_bitmap 09B8AD78, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73821] added dtor for sub_bitmap 09B8BE08, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73841] added dtor for sub_bitmap 09B8DD80, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73865] added dtor for sub_bitmap 09B8BFB0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73892] added dtor for sub_bitmap 09B8DF28, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73912] added dtor for sub_bitmap 09B8B768, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73935] added dtor for sub_bitmap 09B8B0C8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73955] added dtor for sub_bitmap 09B8C158, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73973] added dtor for sub_bitmap 09B8C4A8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,73993] added dtor for sub_bitmap 09B8D538, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74013] added dtor for sub_bitmap 09B8B418, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74032] added dtor for sub_bitmap 09B8C300, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74052] added dtor for sub_bitmap 09B8C9A0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74072] added dtor for sub_bitmap 09B8D390, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74093] added dtor for sub_bitmap 09B8BAB8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74111] added dtor for sub_bitmap 09B8D888, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74132] added dtor for sub_bitmap 09B8D6E0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74159] added dtor for sub_bitmap 09B8C650, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74181] added dtor for sub_bitmap 09B8AF20, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74201] added dtor for sub_bitmap 09B8DA30, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74222] added dtor for sub_bitmap 09B8C7F8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74245] added dtor for sub_bitmap 09B8DBD8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74267] added dtor for sub_bitmap 09B8B910, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74290] added dtor for sub_bitmap 09B8B270, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74312] added dtor for sub_bitmap 09B8B5C0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74335] added dtor for sub_bitmap 09B8ABD0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74357] added dtor for sub_bitmap 09B8CB48, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74378] added dtor for sub_bitmap 09B8CCF0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74397] added dtor for sub_bitmap 09B8CE98, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74418] added dtor for sub_bitmap 09B8D040, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74441] added dtor for sub_bitmap 09B93288, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74461] added dtor for sub_bitmap 09B95A48, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74484] added dtor for sub_bitmap 09B953A8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74502] added dtor for sub_bitmap 09B93780, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74524] added dtor for sub_bitmap 09B93928, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74551] added dtor for sub_bitmap 09B95200, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74599] added dtor for sub_bitmap 09B949B8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74624] added dtor for sub_bitmap 09B95BF0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74684] added dtor for sub_bitmap 09B95D98, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74708] added dtor for sub_bitmap 09B956F8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74737] added dtor for sub_bitmap 09B94B60, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74758] added dtor for sub_bitmap 09B94D08, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74780] added dtor for sub_bitmap 09B935D8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74800] added dtor for sub_bitmap 09B930E0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74819] added dtor for sub_bitmap 09B94668, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74837] added dtor for sub_bitmap 09B958A0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74858] added dtor for sub_bitmap 09B95F40, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74877] added dtor for sub_bitmap 09B93430, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74897] added dtor for sub_bitmap 09B93AD0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74921] added dtor for sub_bitmap 09B94EB0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74945] added dtor for sub_bitmap 09B92D90, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74964] added dtor for sub_bitmap 09B93C78, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,74985] added dtor for sub_bitmap 09B92BE8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,75004] added dtor for sub_bitmap 09B93E20, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,75028] added dtor for sub_bitmap 09B92F38, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,75052] added dtor for sub_bitmap 09B93FC8, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,75071] added dtor for sub_bitmap 09B94170, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,75090] added dtor for sub_bitmap 09B94318, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,75111] added dtor for sub_bitmap 09B944C0, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,75131] added dtor for sub_bitmap 09B94810, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,75156] added dtor for sub_bitmap 09B95058, func 7CA617D0
+dtor     D               dtor.c:196  _al_register_destructor          [   0,75177] added dtor for sub_bitmap 09B95550, func 7CA617D0
+dtor     D               dtor.c:227  _al_unregister_destructor        [   0,75213] removed dtor for bitmap 0562DBD8
+dtor     D               dtor.c:196  _al_register_destructor          [   0,75244] added dtor for font 056380C0, func 7CCB100F
+dtor     D               dtor.c:227  _al_unregister_destructor        [   0,75294] removed dtor for bitmap 0562DA38
+d3d      D          d3d_bmp.cpp:539  _al_d3d_sync_bitmap              [   1,76306] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D          d3d_bmp.cpp:545  _al_d3d_sync_bitmap              [   1,76339] _al_d3d_sync_bitmap (video) ref count == 1

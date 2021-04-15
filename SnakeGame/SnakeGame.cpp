@@ -53,6 +53,7 @@ using std::cerr;
 
 int main()
 {
+	srand(time(NULL));
 	setlocale(LC_ALL, "polish");
 	std::cout << "Witamy w grze snake!\n" << std::endl;
 
@@ -81,7 +82,7 @@ int main()
 
 	while (isGameOn)
 	{
-		Sleep(500);
+		al_rest(1);
 		al_get_keyboard_state(&state);
 		if (al_key_down(&state,ALLEGRO_KEY_W))
 		{
