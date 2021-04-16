@@ -10,11 +10,15 @@
 #include <math.h>
 #include "SnakeTable.h"
 #include <time.h>
+#include <string>
+#include <sstream>
+
 const int DISP_WIDTH = 600, DISP_HEIGHT = 600;
 const int sizeOfSquare = 30;
 const int tableHeight = 20;
 const int tableWidth = 20;
-int SCORE = 0;
+
+
 
 void drawTable(SnakeTable* snakeT)
 {
@@ -106,6 +110,10 @@ int main()
 		isGameOn = snakeTable->update();
 		
 		drawTable(snakeTable);
+
+		
+		al_draw_textf(font, al_map_rgb(255, 0, 0), 300, 50,
+			ALLEGRO_ALIGN_CENTER,"SCORE:  %d", snakeTable->getScore());
 		al_flip_display();
 
 

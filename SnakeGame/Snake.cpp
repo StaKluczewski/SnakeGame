@@ -50,6 +50,7 @@ void Snake::eat(int& next_p)
 {
 	this->m_body.push_front(&next_p);
 	*this->m_body.at(0) = (int)TableItems::SnakeBody;	
+	
 }
 
 int Snake::getLenght()

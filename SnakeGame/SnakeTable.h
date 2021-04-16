@@ -30,6 +30,7 @@ private:
 	int m_width;
 	int snakeHeadX = 10;
 	int snakeHeadY = 10;
+	int scoreCounter = 0;
 	bool m_food_exist = false;
 
 	bool isFood(int, int);
@@ -38,7 +39,7 @@ private:
 	Direction m_LastDirection = Direction::Left;
 
 public:
-
+	int getScore();
 	SnakeTable(int height, int width);
 	~SnakeTable();
 	void setDirection(Direction dir);

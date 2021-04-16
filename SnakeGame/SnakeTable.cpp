@@ -3,6 +3,11 @@
 #include<cstdlib>
 #include <iostream>
 #include <vector>
+
+int SnakeTable::getScore()
+{
+	return this->scoreCounter;
+}
 SnakeTable::SnakeTable(int height, int width)
 {
 	this->m_height = height;
@@ -15,7 +20,10 @@ SnakeTable::SnakeTable(int height, int width)
 	this->m_snake = new Snake(m_table[10][10], height * width);
 
 	if (!m_food_exist)
+	{
 		this->generateFood();
+	}
+		
 }
 
 bool SnakeTable::isFood(int i, int y)
@@ -44,44 +52,6 @@ void SnakeTable::generateFood()
 			posRandY = 0 + (rand() % MAX);
 			this->m_table[posRandX][posRandY] = (int)TableItems::Food; // m table pixel x pixel y = food 
 	}
-	
-
-
-
-	/*
-	//std::cout << "DUPA" << std::endl;
-	int counter=0;																			// counter 
-	std::vector<FoodPos**> tab= new FoodPos*[(this->m_height*this->m_width)];				// tab with empty pos 
-	FoodPos* posH = new FoodPos();															// helper 
-	
-	for (size_t x = 0; x < 20; x++)
-	{
-		for (size_t y = 0; y < 20; y++)
-		{
-			
-			if (this->m_table[x][y] == (int)TableItems::Empty)
-			{
-				posH->pos_x = x;										// if empty set x and y to helper var
-				posH->pos_y = y;
-				tab[counter] = posH;		// write to table 
-				counter++;					// increment counter
-			}
-		}
-	}
-
-	// get random pos from table
-	// max = counter
-	
-	std::cout << "licznik:" << counter << std::endl;
-	int posRand = 1+(rand() % counter);
-	std::cout << "wylosowane:"<<posRand << std::endl;
-	std::cout << "pos x:"<< tab[posRand]->pos_x << std::endl;
-	std::cout << "pos y:"<< tab[posRand]->pos_y << std::endl;
-	m_table[tab[posRand]->pos_x][tab[posRand]->pos_y] = (int)TableItems::Food;
-	//m_table[5][5] = (int)TableItems::Food;
-
-	//m_table[9][9] = (int)TableItems::Food;
-	*/
 }
 
 bool SnakeTable::update()
@@ -97,6 +67,7 @@ bool SnakeTable::update()
 			if (this->isFood(snakeHeadX, snakeHeadY))
 			{
 				m_snake->eat(m_table[snakeHeadX][snakeHeadY]);
+				this->scoreCounter++;
 				m_food_exist = false;
 				break;
 			}
@@ -113,6 +84,7 @@ bool SnakeTable::update()
 			if (this->isFood(snakeHeadX, snakeHeadY))
 			{
 				m_snake->eat(m_table[snakeHeadX][snakeHeadY]);
+				this->scoreCounter++;
 				m_food_exist = false;
 				break;
 			}
@@ -129,6 +101,7 @@ bool SnakeTable::update()
 			if (this->isFood(snakeHeadX, snakeHeadY))
 			{
 				m_snake->eat(m_table[snakeHeadX][snakeHeadY]);
+				this->scoreCounter++;
 				m_food_exist = false;
 				break;
 			}
@@ -145,6 +118,7 @@ bool SnakeTable::update()
 			if (this->isFood(snakeHeadX, snakeHeadY))
 			{
 				m_snake->eat(m_table[snakeHeadX][snakeHeadY]);
+				this->scoreCounter++;
 				m_food_exist = false;
 				break;
 			}
