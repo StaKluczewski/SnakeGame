@@ -40,18 +40,22 @@ SnakeTable::~SnakeTable()
 
 void SnakeTable::generateFood() 
 {
-	int MAX = 20;						// MAX number
-	int posRandX = 0 + (rand() % MAX);	// random number x
-	int posRandY = 0 + (rand() % MAX);	// random number y
-	if (this->m_table[posRandX][posRandY] != (int)TableItems::Empty && this->m_table[posRandX][posRandY] != (int)TableItems::SnakeBody){
-		this->m_table[posRandX][posRandY] = (int)TableItems::Food;	// m table pixel x pixel y = food 
+	int MAX = 20;	
+	int posRandX;
+	int posRandY;
+
+	do
+	{
+		posRandX = 0 + (rand() % MAX);	// random number x
+		posRandY = 0 + (rand() % MAX);	// random number y
+	} while (this->m_table[posRandX][posRandY] == (int)TableItems::SnakeBody);
 	
-	}
-	else {
-			posRandX = 0 + (rand() % MAX);
-			posRandY = 0 + (rand() % MAX);
-			this->m_table[posRandX][posRandY] = (int)TableItems::Food; // m table pixel x pixel y = food 
-	}
+
+
+	this->m_table[posRandX][posRandY] = (int)TableItems::Food;	// m table pixel x pixel y = food 
+
+	// MAX number
+
 }
 
 bool SnakeTable::update()

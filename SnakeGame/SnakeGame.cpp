@@ -76,19 +76,55 @@ int main()
 
 	SnakeTable* snakeTable = new SnakeTable(tableHeight, tableWidth);
 
-	ALLEGRO_KEYBOARD_STATE  state;
+	
 
 	//bool al_key_down(const ALLEGRO_KEYBOARD_STATE * state, int keycode)
 	//snakeTable.
 
 
 	bool isGameOn = true;
+	int milisPerMove = 50;
+
+	ALLEGRO_KEYBOARD_STATE state;
+
+	ALLEGRO_KEYBOARD_STATE copy_state;
 
 	while (isGameOn)
 	{
-		al_get_keyboard_state(&state);
-		al_rest(1);
-		al_get_keyboard_state(&state);
+		int milis = 0;
+
+		do {
+			
+			al_get_keyboard_state(&state);
+			if (al_key_down(&state, ALLEGRO_KEY_W))
+			{
+				copy_state = state;
+				Sleep(100);
+				break;
+			}
+			else if (al_key_down(&state, ALLEGRO_KEY_S))
+			{
+				copy_state = state;
+				Sleep(100);
+				break;
+			}
+			else if (al_key_down(&state, ALLEGRO_KEY_A))
+			{
+				copy_state = state;
+				Sleep(100);
+				break;
+			}
+			else if (al_key_down(&state, ALLEGRO_KEY_D))
+			{
+				copy_state = state;
+				Sleep(100);
+				break;
+			}
+			Sleep(10);
+			milis++;
+		} while (milis < milisPerMove);
+
+		
 
 		if (al_key_down(&state,ALLEGRO_KEY_W))
 		{
