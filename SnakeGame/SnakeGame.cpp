@@ -20,8 +20,7 @@ const int tableWidth = 20;
 
 
 
-void drawTable(SnakeTable* snakeT)
-{
+void drawTable(SnakeTable* snakeT) {
 	for (int i = 0; i < tableHeight; i++)
 	{
 		for (int j = 0; j < tableWidth; j++)
@@ -43,13 +42,17 @@ void drawTable(SnakeTable* snakeT)
 				al_draw_filled_rectangle((30) * j, i * 30, (30 * (j + 1)), (i * 30) + 30, al_map_rgb(0, 0, 255));
 				break;
 			}
-
+			case (int)TableItems::Wall:
+			{
+				al_draw_filled_rectangle((30) * j, i * 30, (30 * (j + 1)), (i * 30) + 30, al_map_rgb(255, 255, 255));
+				break;
 			}
 
+			}
 		}
 	}
-}
 
+}
 using std::endl;
 using std::cout;
 using std::cerr;

@@ -13,7 +13,8 @@ enum class TableItems
 {
 	Empty,
 	SnakeBody,
-	Food
+	Food,
+	Wall
 };
 
 struct FoodPos
@@ -34,7 +35,9 @@ private:
 	bool m_food_exist = false;
 
 	bool isFood(int, int);
+	bool isWall(int, int);
 	void generateFood();
+	void generateWall();
 	Snake* m_snake;
 	Direction m_LastDirection = Direction::Left;
 

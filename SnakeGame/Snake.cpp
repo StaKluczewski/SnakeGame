@@ -41,7 +41,7 @@ bool Snake::move(int& next_p)
 		for (size_t i = 1; i < this->getLenght(); i++)
 			if (this->m_body.at(i) == &next_p)
 				not_crash = false;
-
+		//std::cout << "kolizja z cialem:" << !not_crash << std::endl;
 		return not_crash;
 	}
 }
