@@ -2,6 +2,7 @@
 #include <time.h>
 #include<cstdlib>
 #include <iostream>
+#include <vector>
 SnakeTable::SnakeTable(int height, int width)
 {
 	this->m_height = height;
@@ -31,15 +32,33 @@ SnakeTable::~SnakeTable()
 
 void SnakeTable::generateFood() 
 {
-	std::cout << "DUPA" << std::endl;
-	int counter=0;															// counter 
-	FoodPos** tab= new FoodPos*[this->m_height*this->m_width];				// tab with empty pos 
-	FoodPos* posH = new FoodPos();											// helper 
+	int MAX = 20;						// MAX number
+	int posRandX = 0 + (rand() % MAX);	// random number x
+	int posRandY = 0 + (rand() % MAX);	// random number y
+	if (this->m_table[posRandX][posRandY] != (int)TableItems::Empty && this->m_table[posRandX][posRandY] != (int)TableItems::SnakeBody){
+		this->m_table[posRandX][posRandY] = (int)TableItems::Food;	// m table pixel x pixel y = food 
+	
+	}
+	else {
+			posRandX = 0 + (rand() % MAX);
+			posRandY = 0 + (rand() % MAX);
+			this->m_table[posRandX][posRandY] = (int)TableItems::Food; // m table pixel x pixel y = food 
+	}
+	
 
+
+
+	/*
+	//std::cout << "DUPA" << std::endl;
+	int counter=0;																			// counter 
+	std::vector<FoodPos**> tab= new FoodPos*[(this->m_height*this->m_width)];				// tab with empty pos 
+	FoodPos* posH = new FoodPos();															// helper 
+	
 	for (size_t x = 0; x < 20; x++)
 	{
 		for (size_t y = 0; y < 20; y++)
 		{
+			
 			if (this->m_table[x][y] == (int)TableItems::Empty)
 			{
 				posH->pos_x = x;										// if empty set x and y to helper var
@@ -54,12 +73,15 @@ void SnakeTable::generateFood()
 	// max = counter
 	
 	std::cout << "licznik:" << counter << std::endl;
-	int posRand = rand() % counter;
+	int posRand = 1+(rand() % counter);
+	std::cout << "wylosowane:"<<posRand << std::endl;
+	std::cout << "pos x:"<< tab[posRand]->pos_x << std::endl;
+	std::cout << "pos y:"<< tab[posRand]->pos_y << std::endl;
+	m_table[tab[posRand]->pos_x][tab[posRand]->pos_y] = (int)TableItems::Food;
+	//m_table[5][5] = (int)TableItems::Food;
 
-	//m_table[tab[posRand]->pos_x][tab[posRand]->pos_y] = (int)TableItems::Food;
-	m_table[5][5] = (int)TableItems::Food;
-
-	m_table[9][9] = (int)TableItems::Food;
+	//m_table[9][9] = (int)TableItems::Food;
+	*/
 }
 
 bool SnakeTable::update()
@@ -129,6 +151,11 @@ bool SnakeTable::update()
 			else
 				return m_snake->move(m_table[snakeHeadX][snakeHeadY]);
 		}
+	}
+	if (m_food_exist == false)
+	{
+		this->generateFood();
+		m_food_exist = true;
 	}
 
 	

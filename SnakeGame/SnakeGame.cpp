@@ -9,12 +9,12 @@
 #include <thread>
 #include <math.h>
 #include "SnakeTable.h"
-
+#include <time.h>
 const int DISP_WIDTH = 600, DISP_HEIGHT = 600;
 const int sizeOfSquare = 30;
 const int tableHeight = 20;
 const int tableWidth = 20;
-
+int SCORE = 0;
 
 void drawTable(SnakeTable* snakeT)
 {
@@ -53,9 +53,9 @@ using std::cerr;
 
 int main()
 {
-	srand(time(NULL));
-	setlocale(LC_ALL, "polish");
-	std::cout << "Witamy w grze snake!\n" << std::endl;
+	srand((unsigned)time(NULL));
+	//setlocale(LC_ALL, "polish");
+	//std::cout << "Witamy w grze snake!\n" << std::endl;
 
 	al_init();
 	al_init_primitives_addon();
@@ -104,12 +104,13 @@ int main()
 		}
 
 		isGameOn = snakeTable->update();
+		
 		drawTable(snakeTable);
 		al_flip_display();
 
 
 	}
-	cout << "PROSZĘ PANA DZIAŁA!!!" << endl;
+	//cout << "PROSZĘ PANA DZIAŁA!!!" << endl;
 
 	system("pause");
 	return 0;
